@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Holistic Kiwi`,
+    title: `Holistic Kiwi - Skin & Massage`,
     description: `A Holistic Fruits Inc. company`,
     author: `Kitty Bee`,
   },
@@ -48,6 +48,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

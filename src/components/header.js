@@ -1,42 +1,44 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import Icon from './Icon';
+import PropTypes from 'prop-types'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+const Header = ({ title, icon='medical-notes',breadcrumb, bookLink='/' }) => {
+  return (
+    <header className="header">
+      <div className="headercontent">
+        <Icon name={icon} className="icn" alt="logo" />
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+          {breadcrumb}
+        </a>
+        <h1>{title}</h1>
+        {bookLink && 
+        <a
+        className="btn btn-primary"
+        href="https://reactjs.org"
+        type="button"
+        >
+          Book Now
+        </a>
+      }
+      </div>
+    </header>
+  )
+}
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  title: PropTypes.string,
+  breadcrumb: PropTypes.string,
+  bookLink: PropTypes.string,
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  title: `title`,
+  breadcrumb: "breadcrumb",
 }
 
 export default Header

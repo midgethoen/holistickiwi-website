@@ -1,5 +1,6 @@
 - name: Massages
   slug: massages
+  icon: spa-lotus
   treatments: 
     - '*-massage-*'
   decisions:
@@ -7,13 +8,18 @@
     - theraputic-massages
 - name: Theraputic Massages
   slug: theraputic-massages
+  icon: spa-lotus
   treatments: 
     - 'theraputic-massage-*'
 - name: Relaxation Massages
   slug: relaxation-massages
+  icon: spa-lotus
   treatments: 
     - 'relaxation-massage-*'
 - name: Skincare
   slug: skincare
+  icon: body-care-eye-mask
 - name: Wax
   slug: wax
+  icon: flying-insect-honey
+

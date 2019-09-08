@@ -44,6 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 nodes {
                     slug
                     name
+                    icon
                     treatments
                     decisions
                 }
