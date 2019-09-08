@@ -1,0 +1,19 @@
+- name: Massages
+  slug: massages
+  treatments: 
+    - '*-massage-*'
+  decisions:
+    - relaxation-massages
+    - theraputic-massages
+- name: Theraputic Massages
+  slug: theraputic-massages
+  treatments: 
+    - 'theraputic-massage-*'
+- name: Relaxation Massages
+  slug: relaxation-massages
+  treatments: 
+    - 'relaxation-massage-*'
+- name: Skincare
+  slug: skincare
+- name: Wax
+  slug: wax

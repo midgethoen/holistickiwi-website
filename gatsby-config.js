@@ -1,11 +1,43 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Holistic Kiwi`,
+    description: `A Holistic Fruits Inc. company`,
+    author: `Kitty Bee`,
   },
   plugins: [
+    `gatsby-transformer-yaml`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `pages`,
+    //     path: `${__dirname}/content/pages/`,
+    //   },
+    // },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        defaultLayouts: {
+        //   pages: require.resolve("./src/templates/default.js"),
+          default: require.resolve("./src/templates/default.js"),
+        },
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./content/`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: 'gatsby-plugin-markdown-pages',
+    //   options: {
+    //     path: './content/pages', // Path to markdown files to be converted to pages
+    //     templatePath: './src/templates', // Path to page templates
+    //     template: 'default', // Default template to use if none is supplied
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -13,18 +45,19 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `holistic-kiwi`,
+        short_name: `holistic-kiwi`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

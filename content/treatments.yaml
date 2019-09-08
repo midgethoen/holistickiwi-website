@@ -1,0 +1,45 @@
+- name: Relaxation Massage
+  slug: relaxation-massage-45m
+  duration: 45
+  price: 50.00
+  symptons: struggle-to-relax
+- name: Relaxation Massage
+  slug: relaxation-massage-60m
+  duration: 60
+  price: 60.00
+  symptons: struggle-to-relax, signs-of-stress
+- name: Relaxation Massage
+  slug: relaxation-massage-75m
+  duration: 75
+  price: 70.00
+  symptons: struggle-to-relax, signs-of-stress
+- name: Relaxation Massage
+  slug: relaxation-massage-90m
+  duration: 90
+  price: 85.00
+  symptons: struggle-to-relax, signs-of-stress, burnout-symptons
+- name: Therapeutic Massages
+  slug: therapeutic-massages-45m
+  duration: 45
+  price: 55.00
+  symptons: struggle-to-relax, signs-of-stress, burnout-symptons
+- name: Therapeutic Massages
+  slug: therapeutic-massages-60m
+  duration: 60
+  price: 65.00
+  symptons: lymph-swelling-odema, muscle-tension-mild, muscle-tension-severe, injuries-office-sport-resi-neck-should
+- name: Therapeutic Massages
+  slug: therapeutic-massages-75m
+  duration: 75
+  price: 75.00
+  symptons: signs-of-stress, burnout-symptons, lymph-swelling-odema, muscle-tension-mild, muscle-tension-severe, injuries-office-sport-resi-neck-should
+- name: Therapeutic Massages
+  slug: therapeutic-massages-90m
+  duration: 90
+  price: 90.00
+  symptons: struggle-to-relax, signs-of-stress, burnout-symptons, lymph-swelling-odema, muscle-tension-mild, muscle-tension-severe, injuries-office-sport-resi-neck-should
+- name: Therapeutic Massages
+  slug: therapeutic-massages-105m
+  duration: 105
+  price: 105.00
+  symptons: struggle-to-relax, signs-of-stress, burnout-symptons, lymph-swelling-odema, muscle-tension-mild, muscle-tension-severe, injuries-office-sport-resi-neck-should
