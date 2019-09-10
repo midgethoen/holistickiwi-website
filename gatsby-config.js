@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Holistic Kiwi - Skin & Massage`,
     description: `A Holistic Fruits Inc. company`,
-    author: `Kitty Bee`,
+    author: `Kitty Bradley`,
   },
   plugins: [
     `gatsby-transformer-yaml`,
