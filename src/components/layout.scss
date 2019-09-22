@@ -315,27 +315,10 @@ p + button{
 
 
 .header.header-homepage{
-  background-color: $hk-purple;
   background-image: url('../images/img/homepage-header-bg.png');
   background-size: cover;
-  display: flex;
-  //flex-direction: column;
-  align-items: center;
-  align-content: flex-start;
-  justify-content: flex-start;
-  .headercontent{
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-content: flex-start;
-  }
-
-  h3{
-
-  }
   h1{
     padding-top: 0px;
-    text-align: left;
   }
 }
 

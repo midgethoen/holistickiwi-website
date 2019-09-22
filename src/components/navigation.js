@@ -5,33 +5,15 @@ import React from "react"
 const Navigation = ({ siteTitle }) => (
   <nav className="topnav">
     <div className="topnav-left">
-      <p>{siteTitle}</p>
+      <Link to="/">{siteTitle}</Link>
     </div>
     <div className="topnav-right">
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
+      <Link to="/massages">Massages</Link>
+      <Link to="/skincare">Skincare Treatments</Link>
+      <Link to="/wax">Waxing</Link>
+      <Link to="/medical-conditions">Medical Conditions</Link>
+      <Link to="https://holistickiwishop.com/">Webshop</Link>
+      <Link to="/about-us">Book Now</Link>
     </div>
   </nav>
 )

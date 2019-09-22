@@ -1,20 +1,20 @@
 - name: Massages
   slug: massages
   icon: spa-lotus
-  treatments: 
-    - '*-massage-*'
+  treatments:
+    - 'At Holistic Kiwi we customise our massages to suit your specific needs and concerns upon your consultation. This means we only need 2 massage distinctions;'
   decisions:
     - relaxation-massages
     - theraputic-massages
 - name: Theraputic Massages
   slug: theraputic-massages
   icon: spa-lotus
-  treatments: 
+  treatments:
     - 'theraputic-massage-*'
 - name: Relaxation Massages
   slug: relaxation-massages
   icon: spa-lotus
-  treatments: 
+  treatments:
     - 'relaxation-massage-*'
 - name: Skincare
   slug: skincare
@@ -22,4 +22,3 @@
 - name: Wax
   slug: wax
   icon: flying-insect-honey
-
