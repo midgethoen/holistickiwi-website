@@ -1,0 +1,47 @@
+.header{
+  background-color: $hk-purple;
+  color: $text-color-light;
+  min-height: 400px;
+  height: 50vh;
+  max-height: 400px;
+  display: flex;
+  padding: 0 15px;
+  //flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  .headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .icn{
+    height: 48px;
+  }
+  a{
+    color: $text-color-light;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $font-header;
+    padding-top: 20px;
+  }
+  h1{
+    padding-top: 40px;
+  }
+  a + h1{
+    padding-top: 0px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+
+.header.header-homepage{
+  background-image: url('../images/img/homepage-header-bg.png');
+  background-size: cover;
+  h1{
+    padding-top: 0px;
+  }
+}

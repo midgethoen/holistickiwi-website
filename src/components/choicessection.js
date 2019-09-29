@@ -3,7 +3,7 @@ import Icon from '../components/Icon'
 import { Link } from "gatsby";
 
 export const ChoicesSection = ({ children }) => {
-  return <div className="card-container">{children}</div>
+  return <div className="card-container card-container-choicelink">{children}</div>
 }
 
 export const ChoiceCard = ({
@@ -16,7 +16,7 @@ export const ChoiceCard = ({
   const linkRef = useRef()
   const handleClick = useCallback(() => linkRef.current && linkRef.current.click(), [linkRef])
   return (
-    <div className="card" onClick={handleClick}>
+    <a className="card" onClick={handleClick}>
       <Icon name={icon} color='primary' className="icn" alt="logo" />
       <h5>{title}</h5>
       <p>{subtitle}</p>
@@ -27,6 +27,6 @@ export const ChoiceCard = ({
       >
         View Treatment
       </Link>
-    </div>
+    </a>
   )
 }

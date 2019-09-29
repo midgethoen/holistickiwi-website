@@ -1,8 +1,12 @@
 @import 'variables';
 @import 'typography';
 @import 'topnav';
+@import 'header';
+@import 'footer';
+@import 'defaulttheming';
 @import 'button';
 @import 'card-container';
+@import 'accordion';
 
 
 
@@ -10,7 +14,7 @@
 
 
 
-//----------------------Header
+
 
 .certifications, .clients{
   background-color: $brand-dark-bg;
@@ -34,53 +38,7 @@
   }
 }
 
-.header{
-  background-color: $hk-purple;
-  color: $text-color-light;
-  min-height: 400px;
-  height: 50vh;
-  max-height: 400px;
-  display: flex;
-  padding: 0 15px;
-  //flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  .headercontent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .icn{
-    height: 48px;
-  }
-  a{
-    color: $text-color-light;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: $font-header;
-    padding-top: 20px;
-  }
-  h1{
-    padding-top: 40px;
-  }
-  a + h1{
-    padding-top: 0px;
-  }
-  .btn{
-    margin-top: 20px;
-  }
-}
 
-
-.header.header-homepage{
-  background-image: url('../images/img/homepage-header-bg.png');
-  background-size: cover;
-  h1{
-    padding-top: 0px;
-  }
-}
 
 //----------------------Content
 
@@ -102,107 +60,6 @@
 
 
 
-.accordion-wrap{
-  margin: 0 auto;
-  max-width: $site-max-width;
-  //background-color: red;
-
-  h5{
-    color: $brand-primary;
-    border-bottom: 1px solid $border-color;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    &:before{
-      content:'+';
-      padding-right: 10px;
-    }
-    &:hover{
-        color: $brand-active;
-        cursor: pointer;
-    }
-  }
-  .accordion-content{
-    display: none;
-    padding-left: 15px;
-    padding-right: 15px;
-
-    >.accordion-wrap{
-      > .accordion-content{
-        display: none;
-      }
-    }
-
-
-
-
-
-  }
-}
-
-
-
-
-.accordion-wrap.open{
-
-  > .accordion-header > h5{
-    color: $brand-active;
-    &:before{
-      content:'-';
-      padding-right: 12px;
-    }
-  }
-
-  > .accordion-content{
-    display: block;
-
-    >.accordion-wrap.open{
-      > .accordion-content{
-        background-color: $brand-light-bg;
-        display: block;
-        padding: 30px 15px;
-        text-align: center;
-
-        p{
-          margin: 0 auto;
-          max-width: 500px;
-        }
-        h2{
-          color: $brand-active
-        }
-      }
-    }
-  }
-}
-
-
-// Section Theming
-
-.section-center{
-  padding-top: 60px;
-  padding-bottom: 180px;
-  text-align: center;
-  h2{
-    padding-top: 60px;
-  }
-}
-
-.section-purple{
-  background-color: $brand-active;
-  h2{
-    color: $white;
-  }
-}
-
-.section-lightpurple{
-  background-color: $hk-purple-light;
-  h2{
-    color: $brand-active;
-  }
-  h5{
-    color: $brand-primary;
-  }
-}
-
 // infopage
 
 .info-page{
@@ -217,29 +74,5 @@
     & + .item-wrap{
       background-color: $brand-light-bg;
     }
-  }
-}
-
-.footer-wrap{
-  background-color: $footer-bg-color;
-  color: $brand-primary;
-  padding: 40px 15px;
-  .col-wrap{
-    //background-color: red;
-    max-width: $site-max-width;
-    margin: 0 auto;
-    display: flex;
-    .col{
-      //background-color: blue;
-      width: 25%;
-      a{
-        display: block;
-        color: $brand-primary;
-      }
-      p{
-        color: $white;
-      }
-    }
-
   }
 }

@@ -48,6 +48,10 @@
       position: absolute;
       bottom: 0;
       margin: 0 0 15px;
+      &:hover{
+        box-shadow: none;
+        background-color: $brand-primary;
+      }
     }
     &.mostpopular{
       border-radius: 0 0 8px 8px;
@@ -75,6 +79,17 @@
 
 .card-container.card-container-homepage{
   padding-top: 10px;
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    right: 355px;
+    top: 25px;
+
+    border-left: 1px dashed rgba($white, 0.25);
+    //border-left: 5px dashed red;
+    height: 170px;
+  }
   > a{
     //background-color: white;
     width: 150px;
@@ -83,11 +98,9 @@
     margin: 25px;
     border: none;
     box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    //position: relative;
 
     .icn{
       margin-top: 35px;
-      //height: 40px;
     }
 
     h6{
@@ -96,5 +109,11 @@
     &:hover{
       transform: scale(1.05);
     }
+  }
+}
+
+.card-container.card-container-choicelink{
+  >a{
+    padding-bottom: 25px;
   }
 }
