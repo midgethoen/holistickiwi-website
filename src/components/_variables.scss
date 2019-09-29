@@ -1,0 +1,44 @@
+//----------------------Brand Colors
+
+$hk-purple:             #4F3772;
+$hk-purple-alternative: #4F3873;
+$hk-purple-light:       #F3EBFF;
+$hk-green:              #4AA52D;
+$hk-yellow:             #F9EF77;
+$hk-black:              #2A292D;
+$hk-black-different:    #28272A;
+$hk-cardfont:           #7E7E7E;
+$hk-cardborder:         #D8D8D8;
+$white:                 #fff;
+
+
+//---------------------- Variables
+
+$brand-primary:         $hk-green;
+$brand-danger:          red;
+$brand-warning:         orange;
+$brand-success:         green;
+$brand-info:            blue;
+$brand-active:          $hk-purple;
+$brand-inactive:        grey;
+
+$text-color:            $hk-black;
+$text-color-secondary:  lighten($hk-black, 20);
+$text-color-light:      white; //Used on a dark background
+
+$link-color:            $brand-info;
+
+$topnav-bg-color:       $hk-black-different;
+$footer-bg-color:       $hk-black-different;
+$brand-dark-bg:         darken($hk-purple, 15);
+$brand-light-bg:        $hk-purple-light;
+
+$border-color:          $hk-cardborder;
+
+$brand-primary-hover:   lighten($brand-primary, 52);
+
+$site-max-width:        1060px;
+
+//<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600&display=swap" rel="stylesheet">
+$font-header:           'Montserrat', sans-serif;
+$font-body:             'Open Sans', sans-serif;

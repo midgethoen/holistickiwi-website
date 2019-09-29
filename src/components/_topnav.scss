@@ -1,0 +1,23 @@
+//----------------------TopNav
+
+
+.topnav{
+  background-color: $topnav-bg-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  padding-right: 15px;
+  padding-left: 15px;
+  a{
+    color: $text-color-light;
+  }
+  a+a{
+    padding-left: 30px;
+  }
+  .topnav-left{
+    a{
+      color: $hk-yellow;
+    }
+  }
+}

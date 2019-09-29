@@ -1,0 +1,60 @@
+
+//----------------------padding/margin reset
+*{
+  margin: 0;
+  padding: 0;
+}
+
+//----------------------Default Fontstyles
+h1,h2,h3,h4,{
+  padding: 0;
+  margin: 0;
+  font-family: $font-header;
+}
+
+h1{
+  //font-family:
+  font-size: 64px;
+}
+
+h2{
+  //font-family:
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3{
+font-size: 18px;
+}
+
+h5{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h6{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+body{
+  font-family: $font-body;
+}
+
+p, h5, a{
+  line-height: 160%;
+}
+
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+h2 + p{
+  padding-top: 16px
+}
+
+p + button{
+  margin-top: 30px;
+}

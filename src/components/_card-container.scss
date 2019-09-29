@@ -1,0 +1,110 @@
+//----------------------default card styles
+.card-container a:hover{
+  text-decoration: none;
+}
+
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: $site-max-width + 30;
+  padding: 64px 15px 0;
+  margin: 0 auto;
+
+  .card{
+    position: relative;
+    padding: 25px;
+    color: $text-color-secondary;
+    border: 1px solid $border-color;
+    //box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 8px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+      background-color: $brand-primary-hover;
+      box-shadow: 0px 6px 15px -6px rgba(0, 0, 0, 0.25);
+      a{
+        text-decoration: underline;
+      }
+    }
+
+    .icn{
+      height: 40px;
+    }
+
+    h5{
+      padding-top: 15px;
+    }
+    a{
+      padding-top: 20px;
+      font-size: 14px;
+      color: $brand-primary;
+      font-weight: 600;
+    }
+    a.btn{
+      color: $white;
+    }
+  }
+  .card-headertag{
+    background-color: $brand-active;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-top: -30px;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 1px solid $brand-active;
+  }
+}
+
+.card-container.card-container-homepage{
+  padding-top: 10px;
+  a{
+    position: relative;
+    &:nth-child(4):before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15px;
+
+      border-left: 1px dashed rgba($white, 0.25);
+      height: 170px;
+    }
+
+    .card{
+      background-color: white;
+      width: 150px;
+      height: 150px;
+      padding: 0;
+      margin: 25px;
+      border: none;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      position: relative;
+
+      &:hover{
+        background-color: $brand-primary-hover;
+        transform: scale(1.05);
+      }
+
+
+      .icn{
+        margin-top: 35px;
+        height: 40px;
+      }
+
+      h6{
+        padding-top: 15px;
+      }
+    }
+  }
+}

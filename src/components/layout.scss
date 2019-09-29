@@ -1,253 +1,13 @@
-
-
-//----------------------Brand Colors
-
-$hk-purple:             #4F3772;
-$hk-purple-alternative: #4F3873;
-$hk-purple-light:       #F3EBFF;
-$hk-green:              #4AA52D;
-$hk-yellow:             #F9EF77;
-$hk-black:              #2A292D;
-$hk-black-different:    #28272A;
-$hk-cardfont:           #7E7E7E;
-$hk-cardborder:         #D8D8D8;
-$white:                 #fff;
-
-
-//---------------------- Variables
-
-$brand-primary:         $hk-green;
-$brand-danger:          red;
-$brand-warning:         orange;
-$brand-success:         green;
-$brand-info:            blue;
-$brand-active:          $hk-purple;
-$brand-inactive:        grey;
-
-$text-color:            $hk-black;
-$text-color-secondary:  lighten($hk-black, 20);
-$text-color-light:      white; //Used on a dark background
-
-$link-color:            $brand-info;
-
-$topnav-bg-color:       $hk-black-different;
-$footer-bg-color:       $hk-black-different;
-$brand-dark-bg:         darken($hk-purple, 15);
-$brand-light-bg:        $hk-purple-light;
-
-$border-color:          $hk-cardborder;
-
-$brand-primary-hover:   lighten($brand-primary, 52);
-
-$site-max-width:        1060px;
-
-//<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600&display=swap" rel="stylesheet">
-$font-header:           'Montserrat', sans-serif;
-$font-body:             'Open Sans', sans-serif;
+@import 'variables';
+@import 'typography';
+@import 'topnav';
+@import 'button';
+@import 'card-container';
 
 
 
-//----------------------padding/margin reset
-*{
-  margin: 0;
-  padding: 0;
-}
-
-//----------------------Default Fontstyles
-h1,h2,h3,h4,{
-  padding: 0;
-  margin: 0;
-  font-family: $font-header;
-}
-
-h1{
-  //font-family:
-  font-size: 64px;
-}
-
-h2{
-  //font-family:
-  font-size: 40px;
-  font-weight: 600;
-}
-
-h3{
-
-}
-
-h5{
-  font-weight: 600;
-  font-size: 16px;
-}
-
-h6{
-  font-weight: 600;
-  font-size: 14px;
-}
-
-body{
-  font-family: $font-body;
-}
-
-p, h5, a{
-  line-height: 160%;
-}
-
-a{
-  text-decoration: none;
-  &:hover{
-    text-decoration: underline;
-  }
-}
-h2 + p{
-  padding-top: 16px
-}
-
-p + button{
-  margin-top: 30px;
-}
-//----------------------Default Button Styling
-
-.btn{
-  color: $text-color-light;
-  border-radius: 4px;
-  border: 1px solid $brand-primary;
-  font-family: $font-body;
-  font-weight: 600;
-  font-size: 18px;
-  padding: 10px;
-  min-width: 200px;
-  cursor: pointer;
-   transition: all 0.3s ease;
-   box-shadow: 0 1px 15px -6px rgba(0,0,0,0.2);
-
-  &:hover{
-    box-shadow: 0 7px 15px -6px rgba(0,0,0,0.5);
-  }
 
 
-
-  &.btn-primary{
-    background-color: $brand-primary;
-    &:hover{
-        background-color: lighten($brand-primary, 2);
-    }
-  }
-}
-//----------------------default card styles
-.card-container a:hover{
-  text-decoration: none;
-}
-
-.card-container{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: $site-max-width + 30;
-  padding: 64px 15px 0;
-  margin: 0 auto;
-  .card{
-    padding: 25px;
-    color: $text-color-secondary;
-    border: 1px solid $border-color;
-    //box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-    max-width: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 15px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    &:hover{
-      background-color: $brand-primary-hover;
-      box-shadow: 0px 6px 15px -6px rgba(0, 0, 0, 0.25);
-      a{
-        text-decoration: underline;
-      }
-    }
-
-    .icn{
-      height: 40px;
-    }
-
-    h5{
-      padding-top: 15px;
-    }
-    a{
-      padding-top: 20px;
-      font-size: 14px;
-      color: $brand-primary;
-      font-weight: 600;
-    }
-  }
-}
-
-.card-container.card-container-homepage{
-  padding-top: 10px;
-  a{
-    position: relative;
-    &:nth-child(4):before{
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 15px;
-
-      border-left: 1px dashed rgba($white, 0.25);
-      height: 170px;
-    }
-
-    .card{
-      background-color: white;
-      width: 150px;
-      height: 150px;
-      padding: 0;
-      margin: 25px;
-      border: none;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      position: relative;
-
-      &:hover{
-        background-color: $brand-primary-hover;
-        transform: scale(1.05);
-      }
-
-
-      .icn{
-        margin-top: 35px;
-        height: 40px;
-      }
-
-      h6{
-        padding-top: 15px;
-      }
-    }
-  }
-}
-
-
-//----------------------TopNav
-
-
-.topnav{
-  background-color: $topnav-bg-color;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 60px;
-  padding-right: 15px;
-  padding-left: 15px;
-  p{
-    color: $hk-yellow;
-  }
-  a{
-    color: $text-color-light;
-  }
-  a+a{
-    padding-left: 30px;
-  }
-}
 
 
 //----------------------Header
@@ -335,17 +95,7 @@ p + button{
 }
 
 
-.main-homepage{
-  background-color: $brand-active;
-  padding-top: 60px;
-  padding-bottom: 180px;
-  h2{
-    padding-top: 60px;
-    text-align: center;
-    color: white;
-  }
 
-}
 
 
 
@@ -425,7 +175,35 @@ p + button{
 }
 
 
+// Section Theming
 
+.section-center{
+  padding-top: 60px;
+  padding-bottom: 180px;
+  text-align: center;
+  h2{
+    padding-top: 60px;
+  }
+}
+
+.section-purple{
+  background-color: $brand-active;
+  h2{
+    color: $white;
+  }
+}
+
+.section-lightpurple{
+  background-color: $hk-purple-light;
+  h2{
+    color: $brand-active;
+  }
+  h5{
+    color: $brand-primary;
+  }
+}
+
+// infopage
 
 .info-page{
   padding-top: 60px;
