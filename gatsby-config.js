@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/holistickiwi-website',
   siteMetadata: {
     title: `Holistic Kiwi - Skin & Massage`,
     description: `A Holistic Fruits Inc. company`,
