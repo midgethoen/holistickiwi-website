@@ -2,17 +2,21 @@ import React, { createContext, useContext, useState, useCallback } from "react"
 
 const AccordionContext = createContext()
 
-export const Accordion = ({ title = "title" }) => {
+export const Accordion = ({ title = "title", children }) => {
 
   const [index, selectIndex] = useState(-1)
+  const [open, setOpen] = useState(false)
 
   return (
+    // improve SEO
     <AccordionContext.Provider value={{ selectIndex, index }}>
-      <div className="accordion-wrap open">
-        <div className="accordion-header">
+      <div className={`accordion-wrap ${open ? 'open' : 'closed'}`}>
+        <div className="accordion-header" onClick={() => setOpen(!open)}>
           <h5>{title}</h5>
         </div>
-        <div className="accordion-content">{children}</div>
+        { open &&
+          <div className="accordion-content">{children}</div>
+        }
       </div>
     </AccordionContext.Provider>
   )
@@ -27,7 +31,7 @@ export const AccordionItem = ({ index, title = "title", children }) => {
       <div className="accordion-header">
         <h5>{title}</h5>
       </div>
-      <div className={`accordion-content `}>{children}</div>
+      <div className={`accordion-content`}>{children}</div>
     </div>
   )
 }

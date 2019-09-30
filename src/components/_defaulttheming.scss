@@ -1,27 +1,34 @@
 // Section Theming
-
-.section-center{
+@mixin baseSection {
   padding-top: 60px;
-  padding-bottom: 180px;
-  text-align: center;
-  h2{
+  padding-bottom:75px;
+}
+
+.section {
+  @include baseSection();
+  h2 {
     padding-top: 60px;
   }
 }
 
-.section-purple{
+.section-center {
+  @include baseSection();
+  text-align: center;
+}
+
+.section-purple {
   background-color: $brand-active;
-  h2{
+  h2 {
     color: $white;
   }
 }
 
-.section-lightpurple{
+.section-lightpurple {
   background-color: $hk-purple-light;
-  h2{
+  h2 {
     color: $brand-active;
   }
-  h5{
+  h5 {
     color: $brand-primary;
   }
 }

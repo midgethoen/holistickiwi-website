@@ -54,17 +54,17 @@ exports.createPages = async ({ graphql, actions }) => {
     const {data:{ allTreatmentsYaml: {nodes: allTreatments}}} = await graphql(`
         query TreatmentsQuery {
             allTreatmentsYaml {
-                
                     nodes {
                     id
                     name
+                    duration
                     slug
-                    
-                
+                    symptoms
+                    popularity
                 }
             }
-            }
-        `);
+        }
+    `);
 
     
         
@@ -74,6 +74,14 @@ exports.createPages = async ({ graphql, actions }) => {
         let treatments = []
         if (decision.treatments && decision.treatments.length){
           treatments = allTreatments.filter(({slug}) => micromatch.isMatch(slug, decision.treatments))
+          // tag most popular treament
+          mostpopularTreatment = treatments.reduce((mostpopular, treatment)=>{
+              if (!mostpopular || mostpopular.popularity || mostpopular.popularity < treatment.popularity){
+                  return treatment
+              }
+              return mostpopular
+          }, null)
+          treatments = treatments.map(t => ({ ...t, mostpopular: t.mostpopular = t.slug === mostpopularTreatment.slug}))
         }
         let choices = []
         if (decision.decisions && decision.decisions.length){

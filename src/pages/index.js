@@ -75,42 +75,6 @@ const IndexPage = () => (
         </Link>
       </div>
     </main>
-
-    <div className="treatments section-lightpurple section-center">
-      <h2>Treatments</h2>
-      <h5>Most Popular</h5>
-      <div className="card-container card-container-treatments">
-      <Link to="/massages">
-
-        <h3>Therapeutic Massages</h3>
-        <h3>90 m</h3>
-        <span>Improves poor circulation</span>
-        <span>Injuries (Office/Sport, RSI, Neck shoulder)</span>
-        <span>Muscle Tension (Severe)</span>
-        <span>MuscleTension (Mild)</span>
-        <span>Lymph swelling/Odema</span>
-        <a className="btn btn-primary">Book Now</a>
-
-      </Link>
-      <Link className="mostpopular" to="/massages">
-
-        <h3>Therapeutic Massages</h3>
-        <h3>90 m</h3>
-        <span>Improves poor circulation</span>
-        <span>Injuries (Office/Sport, RSI, Neck shoulder)</span>
-        <span>Muscle Tension (Severe)</span>
-        <span>MuscleTension (Mild)</span>
-        <span>Lymph swelling/Odema</span>
-        <span>Burnout Symptoms</span>
-        <span>Signs of stress</span>
-        <span>Struggle to relax</span>
-        <a className="btn btn-primary">Book Now</a>
-
-      </Link>
-      </div>
-    </div>
-
-
   </Layout>
 )
 
