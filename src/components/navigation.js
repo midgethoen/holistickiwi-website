@@ -13,7 +13,7 @@ const Navigation = ({ siteTitle }) => (
       <Link to="/wax">Waxing</Link>
       <Link to="/medical-conditions">Medical Conditions</Link>
       <Link to="https://holistickiwishop.com/">Webshop</Link>
-      <Link to="/about-us">Book Now</Link>
+      <Link to="/about-us" className="btn">Book Now</Link>
     </div>
   </nav>
 )
