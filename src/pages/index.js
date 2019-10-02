@@ -112,25 +112,7 @@ const IndexPage = () => (
         />
       </a>
     </div>
-    
-    <div className="certifications section-dark section-icnbar">
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-    </div>
+
 
     <div className="section-lightpurple section-center">
       <h2>Holistic Kiwi</h2>
@@ -156,6 +138,25 @@ const IndexPage = () => (
       </p>
       <p>
       </p>
+    </div>
+
+    <div className="certifications section-dark section-icnbar">
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
     </div>
   </Layout>
 )
