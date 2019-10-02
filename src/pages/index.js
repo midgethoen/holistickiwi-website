@@ -24,7 +24,12 @@ const IndexPage = () => (
     </header>
 
     <div className="clients">
-      <p>client logo</p>
+      <Icon
+        name={"spa-lotus"}
+        color="primary"
+        className="icn"
+        alt="logo"
+      />
       <p>client logo</p>
       <p>client logo</p>
       <p>client logo</p>
