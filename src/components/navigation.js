@@ -13,7 +13,13 @@ const Navigation = ({ siteTitle }) => (
       <Link to="/wax">Waxing</Link>
       <Link to="/medical-conditions">Medical Conditions</Link>
       <Link to="https://holistickiwishop.com/">Webshop</Link>
-      <Link to="/about-us" className="btn">Book Now</Link>
+      <a
+        className="btn btn-primary"
+        href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+        type="button"
+      >
+        Book Now
+      </a>
     </div>
   </nav>
 )

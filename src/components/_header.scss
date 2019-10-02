@@ -39,9 +39,15 @@
 
 
 .header.header-homepage{
-  background-image: url('../images/img/homepage-header-bg.png');
+  background-image: linear-gradient(to bottom, rgba($brand-active, 0.3), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/homepage-header-bg.png');
   background-size: cover;
+  background-color: $brand-active;
   h1{
     padding-top: 0px;
+  }
+  a.btn{
+    padding: 14px 40px;
+    font-size: 18px;
   }
 }

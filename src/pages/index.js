@@ -13,13 +13,13 @@ const IndexPage = () => (
       <div className="headercontent">
         <h3>Holistic Kiwi - Skin & Massage</h3>
         <h1>Rediscover your confidence</h1>
-        <button
+        <a
           className="btn btn-primary"
-          href="https://reactjs.org"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
           type="button"
         >
-          Book Now
-        </button>
+          Book Your Treatment Now
+        </a>
       </div>
     </header>
 
