@@ -6,6 +6,7 @@
   decisions:
     - relaxation-massages
     - theraputic-massages
+
 - name: Theraputic Massages
   slug: theraputic-massages
   icon: spa-lotus

@@ -29,9 +29,14 @@ html{
   padding: 20px 15px;
   color: $white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  display: none;
+  justify-content: center;
+  //display: none;
+  p{
+    display: inline-block;
+    margin: 0 15px;
+  }
   h5{
     color: $white;
   }
