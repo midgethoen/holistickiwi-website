@@ -23,17 +23,7 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <div className="clients">
-      <Icon
-        name={"spa-lotus"}
-        color="primary"
-        className="icn"
-        alt="logo"
-      />
-      <p>client logo</p>
-      <p>client logo</p>
-      <p>client logo</p>
-    </div>
+
 
     <main className="main-homepage section-purple section-center">
       <h2>What are you looking for?</h2>
@@ -88,9 +78,58 @@ const IndexPage = () => (
       </div>
     </main>
 
-    <div className="certifications">
-      <p>international massage certification 1</p>
-      <p>international massage certification 2</p>
+    <div className="clients section-dark section-icnbar">
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
+    </div>
+    
+    <div className="certifications section-dark section-icnbar">
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
+      <a href="#">
+        <Icon
+          name={"tudelftlogo"}
+          color="white"
+          className="icn"
+          alt="logo"
+        />
+      </a>
     </div>
 
     <div className="section-lightpurple section-center">
