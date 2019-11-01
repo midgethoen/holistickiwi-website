@@ -85,8 +85,8 @@
     - muscle-tension-mild
     - muscle-tension-severe
     - injuries-office-sport-resi-neck-should
-- name: Therapeutic Massages
-  slug: therapeutic-massages-105m
+- name: Therapeutic Massage
+  slug: therapeutic-massage-105m
   popularity: 2
   duration: 105
   price: 105.00

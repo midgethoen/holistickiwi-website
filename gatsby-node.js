@@ -1,4 +1,5 @@
 const { GraphQLString } = require("gatsby/graphql")
+const _ = require('lodash/fp')
 const path = require('path')
 const micromatch = require('micromatch');
 /**
@@ -77,10 +78,11 @@ exports.createPages = async ({ graphql, actions }) => {
           treatments = allTreatments.filter(({slug}) => micromatch.isMatch(slug, decision.treatments))
           // tag most popular treament
           mostpopularTreatment = treatments.reduce((mostpopular, treatment)=>{
-              if (!mostpopular || mostpopular.popularity || mostpopular.popularity < treatment.popularity){
+              if (!mostpopular || ((mostpopular.popularity||0) < (treatment.popularity||0))){
                   return treatment
               }
               return mostpopular
+
           }, null)
           treatments = treatments.map(t => ({ ...t, mostpopular: t.mostpopular = t.slug === mostpopularTreatment.slug}))
         }
@@ -88,10 +90,12 @@ exports.createPages = async ({ graphql, actions }) => {
         if (decision.decisions && decision.decisions.length){
           choices = decision.decisions.map((decisionSlug) => decisions.find(({slug})=> slug === decisionSlug ))
         }
+        const parent = decisions.find(d => d.decisions && d.decisions.includes(decision.slug)) || null
         actions.createPage({
                 path: `${decision.slug}`,
                 component: DecisionPage,
                 context: {
+                    parent, 
                     decision,
                     choices,
                     treatments,

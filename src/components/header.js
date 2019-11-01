@@ -2,24 +2,22 @@ import React from "react"
 import Icon from './Icon';
 import PropTypes from 'prop-types'
 
-const Header = ({ title, icon='medical-notes',breadcrumb, bookLink='/' }) => {
+const Header = ({ title, parent, icon='medical-notes',nbreadcrumb, bookLink='https://www.fresha.com/providers/holistic-kiwi-agx16c7f' }) => {
   return (
     <header className="header">
       <div className="headercontent">
         <Icon name={icon} className="icn" alt="logo" />
-        <a
+        {parent && <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href={'/'+parent.slug}
         >
-          {breadcrumb}
-        </a>
+          {parent.name}
+        </a>}
         <h1>{title}</h1>
         {bookLink && 
         <a
         className="btn btn-primary"
-        href="https://reactjs.org"
+        href={bookLink}
         type="button"
         >
           Book Now

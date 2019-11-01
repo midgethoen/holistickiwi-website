@@ -2,20 +2,52 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Navigation = ({ siteTitle }) => (
+const Navigation = ({ siteTitle, path }) => (
   <nav className="topnav">
     <div className="topnav-left">
       <Link to="/">{siteTitle}</Link>
     </div>
     <div className="topnav-right">
-      <Link to="/massages">Massages</Link>
-      <Link to="/skincare">Skincare Treatments</Link>
-      <Link to="/wax">Waxing</Link>
-      <Link to="/medical-conditions">Medical Conditions</Link>
-      <a
-        className=""
-        href="https://holistickiwishop.com/"
+      <Link
+        to="/massages"
+        className={
+          [
+            "/massages",
+            "/therapeutic-massages",
+            "/relaxation-massages",
+          ].includes(path)
+            ? "active"
+            : undefined
+        }
       >
+        Massages
+      </Link>
+      <Link
+        to="/skincare"
+        className={
+          [
+            "/skincare",
+          ].includes(path)
+            ? "active"
+            : undefined
+        }
+      >
+        Skincare Treatments
+      </Link>
+      <Link
+        to="/wax"
+        className={
+          [
+            "/wax",
+          ].includes(path)
+            ? "active"
+            : undefined
+        }
+      >
+        Waxing
+      </Link>
+      <Link to="/medical-conditions">Medical Conditions</Link>
+      <a className="" href="https://holistickiwishop.com/">
         Webshop
       </a>
       <a
