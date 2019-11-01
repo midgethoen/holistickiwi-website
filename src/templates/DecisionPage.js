@@ -37,6 +37,24 @@ export default props => {
   return (
     <Layout>
       <Header title={decision.name} icon={decision.icon} breadcrumb={""} />
+
+      {
+        treatments && treatments.length &&
+        <TreatmentsSection>
+          {
+            treatments.map(
+              treatment => (
+                <TreatmentCard key={treatment.slug} {...treatment} />
+              )
+            )}
+        </TreatmentsSection>
+      }
+
+      <div className="page-intro">
+        <p>
+          At Holistic Kiwi we customise our massages to suit your specific needs and concerns upon your consultation. This means we only need 2 massage distinctions;
+        </p>
+      </div>
       {choices.length > 0 && (
         <ChoicesSection>
           {choices.map(choice => (
@@ -68,17 +86,7 @@ export default props => {
         </Accordion>
       </section>
 
-      {
-        treatments && treatments.length &&
-        <TreatmentsSection>
-          {
-            treatments.map(
-              treatment => (
-                <TreatmentCard key={treatment.slug} {...treatment} />
-              )
-            )}
-        </TreatmentsSection>
-      }
+
 
       {/* <h2>treatments</h2>
       <pre>{JSON.stringify(treatments, null, 2)}</pre> */}
