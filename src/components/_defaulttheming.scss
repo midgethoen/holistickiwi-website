@@ -70,3 +70,21 @@
     }
   }
 }
+
+.bgc-kitti{
+    background-color: grey;
+    color: $white;
+    P{
+      padding-top: 20px;
+    }
+    div{
+      //background-color: red;
+      max-width: 600px;
+      left: 50%;
+      position: relative;
+    }
+}
+
+.section.text-right{
+
+}
