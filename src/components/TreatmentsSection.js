@@ -9,7 +9,7 @@ export default ({children}) => (
     <div className="card-container card-container-treatments">
     { children }
     </div>
-    {/* 
+    {/*
       <Link to="/massages">
         <h3>Therapeutic Massages</h3>
         <h3>90 m</h3>
@@ -24,7 +24,7 @@ export default ({children}) => (
   </div>
 )
 
-export const TreatmentCard = ({symptoms, mostpopular, duration, name}) => (
+export const TreatmentCard = ({symptoms, mostpopular, duration, name, link='https://www.fresha.com/providers/holistic-kiwi-agx16c7f'}) => (
   <Link className={mostpopular && 'mostpopular'} to="/massages">
     <h3>{name}</h3>
     <h3>{duration} m</h3>
@@ -35,6 +35,6 @@ export const TreatmentCard = ({symptoms, mostpopular, duration, name}) => (
         )
       )
     }
-    <a className="btn btn-primary">Book Now</a>
+    <a href={link} className="btn btn-primary">Book Now</a>
   </Link>
 )

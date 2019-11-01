@@ -3,7 +3,7 @@
   icon: spa-lotus
   decisions:
     - relaxation-massages
-    - theraputic-massages
+    - therapeutic-massages
   treatments:
     - '*-massage-*'
 
@@ -14,12 +14,12 @@
   treatments:
     - 'relaxation-massage-*'
 
-- name: Theraputic Massages
-  slug: theraputic-massages
+- name: Therapeutic Massages
+  slug: therapeutic-massages
   icon: spa-lotus
   subtitle: Firmer techniques to release tension and pain.
   treatments:
-    - 'theraputic-massage-*'
+    - 'therapeutic-massages-*'
 
 
 
