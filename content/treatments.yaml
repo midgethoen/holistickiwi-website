@@ -9,7 +9,7 @@
 
 - name: Relaxation Massage
   slug: relaxation-massage-60m
-  popularity: 1
+  popularity: 3
   duration: 60
   price: 60.00
   symptoms:
@@ -19,9 +19,9 @@
 
 - name: Relaxation Massage
   slug: relaxation-massage-75m
-  popularity: 1
+  popularity: 4
   duration: 75
-  price: 70.00
+  price: 70.00S
   symptoms:
     - Struggle to relax
     - Improves poor circulation
@@ -29,7 +29,7 @@
 
 - name: Relaxation Massage
   slug: relaxation-massage-90m
-  popularity: 1
+  popularity: 2
   duration: 90
   price: 85.00
   symptoms:

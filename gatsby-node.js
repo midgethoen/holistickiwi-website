@@ -44,6 +44,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 nodes {
                     slug
                     name
+                    subtitle
                     icon
                     treatments
                     decisions
@@ -66,8 +67,8 @@ exports.createPages = async ({ graphql, actions }) => {
         }
     `);
 
-    
-        
+
+
 
     const treatmentsQuery =
         decisions.forEach((decision) => {

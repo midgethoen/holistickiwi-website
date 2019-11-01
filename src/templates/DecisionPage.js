@@ -43,6 +43,7 @@ export default props => {
             <ChoiceCard
               key={choice.slug}
               title={choice.name}
+              subtitle={choice.subtitle}
               linkTo={"/" + choice.slug}
               icon={choice.icon}
             />
@@ -66,9 +67,9 @@ export default props => {
           ))}
         </Accordion>
       </section>
-      
+
       {
-        treatments && treatments.length && 
+        treatments && treatments.length &&
         <TreatmentsSection>
           {
             treatments.map(
@@ -84,7 +85,7 @@ export default props => {
 
       {/* <h2>decision</h2>
             <pre>{JSON.stringify(props.pageContext, null, 2)}</pre> */}
-            
+
             {/* <h2>conditions</h2>
             <pre>{JSON.stringify(conditions, null, 2)}</pre> */}
 

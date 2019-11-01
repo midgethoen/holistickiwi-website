@@ -43,7 +43,7 @@ const IndexPage = () => (
         <Link to="/skincare">
 
             <Icon
-              name={"spa-lotus"}
+              name={"body-care-eye-mask"}
               color="primary"
               className="icn"
               alt="logo"
@@ -55,7 +55,7 @@ const IndexPage = () => (
         <Link to="/wax">
 
             <Icon
-              name={"spa-lotus"}
+              name={"flying-insect-honey"}
               color="primary"
               className="icn"
               alt="logo"
@@ -64,10 +64,10 @@ const IndexPage = () => (
 
         </Link>
 
-        <Link to="/wax">
+        <Link to="/advice">
 
             <Icon
-              name={"spa-lotus"}
+              name={"check-2"}
               color="primary"
               className="icn"
               alt="logo"

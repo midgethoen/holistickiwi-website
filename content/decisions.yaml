@@ -1,25 +1,36 @@
 - name: Massages
   slug: massages
   icon: spa-lotus
-  treatments:
-    - '*-massage-*'
   decisions:
     - relaxation-massages
     - theraputic-massages
+  treatments:
+    - '*-massage-*'
+
+- name: Relaxation Massages
+  slug: relaxation-massages
+  icon: spa-lotus
+  subtitle: Lighter techniques to help you relax and unwind.
+  treatments:
+    - 'relaxation-massage-*'
 
 - name: Theraputic Massages
   slug: theraputic-massages
   icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
   treatments:
     - 'theraputic-massage-*'
-- name: Relaxation Massages
-  slug: relaxation-massages
-  icon: spa-lotus
-  treatments:
-    - 'relaxation-massage-*'
+
+
+
 - name: Skincare
   slug: skincare
   icon: body-care-eye-mask
+
 - name: Wax
   slug: wax
   icon: flying-insect-honey
+
+- name: Advice
+  slug: advice
+  icon: check-2
