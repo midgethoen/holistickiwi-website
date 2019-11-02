@@ -67,20 +67,38 @@ export default props => {
       )}
 
       <section className="section">
+
         <Accordion title="Techniques">
-          {conditions.map((condition, idx) => (
-            <AccordionItem title={condition.name} index={idx}>
-              {condition.description}
+          {techniques.map((technique, idx) => (
+            <AccordionItem title={technique.name} index={idx}>
+              <h2>{technique.name}</h2>
+              <p>{technique.description}</p>
+              <a
+              className="btn btn-primary"
+              href="#"
+              type="button"
+              >
+                view treatments
+              </a>
             </AccordionItem>
           ))}
         </Accordion>
         <Accordion title="Medical Conditions">
-          {techniques.map((technique, idx) => (
-            <AccordionItem title={technique.name} index={idx}>
-              {technique.description}
+          {conditions.map((condition, idx) => (
+            <AccordionItem title={condition.name} index={idx}>
+            <h2>{condition.name}</h2>
+            <p>{condition.description}</p>
+              <a
+              className="btn btn-primary"
+              href="#"
+              type="button"
+              >
+                view treatments
+              </a>
             </AccordionItem>
           ))}
         </Accordion>
+
       </section>
 
       {/* <h2>treatments</h2>

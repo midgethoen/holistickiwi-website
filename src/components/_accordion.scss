@@ -12,6 +12,7 @@
     border-bottom: 1px solid $border-color;
     padding-top: 10px;
     padding-bottom: 10px;
+    //font-size: 20px;
     &:before{
       content:'+';
       padding-right: 10px;
@@ -23,10 +24,14 @@
   }
   .accordion-content{
     display: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     >.accordion-wrap{
+      h5{
+        font-size: 16px;
+        font-weight: 500;
+      }
       > .accordion-content{
         display: none;
       }
@@ -43,9 +48,10 @@
 
 
 .accordion-wrap.open{
-
+  //background-color: $hk-green-light;
   > .accordion-header > h5{
     color: $brand-active;
+    //background-color: $hk-purple-light;
     &:before{
       content:'-';
       padding-right: 12px;
@@ -61,6 +67,7 @@
         display: block;
         padding: 30px 15px;
         text-align: center;
+
 
         p{
           margin: 0 auto;
