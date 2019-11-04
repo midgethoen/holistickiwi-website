@@ -48,7 +48,7 @@ export default props => {
       <div className="page-intro">
         <p>
           At Holistic Kiwi we customise our massages to suit your specific needs
-          and concerns upon your consultation. This means we only need 2 massage
+          and concerns upon your consultation. This means we only have 2 massage
           distinctions;
         </p>
       </div>
