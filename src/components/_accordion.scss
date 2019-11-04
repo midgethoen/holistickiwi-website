@@ -69,12 +69,20 @@
         text-align: center;
 
 
+
+        h2{
+          color: $brand-active;
+          padding-top: 0;
+        }
         p{
           margin: 0 auto;
           max-width: 500px;
+          //position: relative;
         }
-        h2{
-          color: $brand-active
+        a{
+          //position: relative;
+          display: inline-block;
+          margin-top: 15px;
         }
       }
     }

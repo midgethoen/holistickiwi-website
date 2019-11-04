@@ -26,6 +26,59 @@
 - name: Skincare
   slug: skincare
   icon: body-care-eye-mask
+  decisions:
+    - basic-facials
+    - microdermabrasion
+    - specialised-facials
+    - acne-face
+    - acne-body
+    - add-ons
+  treatments:
+    - '*-massage-*'
+
+- name: Basic Facials
+  slug: basic-facials
+  icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
+  treatments:
+    - 'therapeutic-massages-*'
+
+- name: Microdermabrasion
+  slug: microdermabrasion
+  icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
+  treatments:
+    - 'therapeutic-massages-*'
+
+- name: Specialised Facials
+  slug: specialised-facials
+  icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
+  treatments:
+    - 'therapeutic-massages-*'
+
+- name: Acne Face
+  slug: acne-face
+  icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
+  treatments:
+    - 'therapeutic-massages-*'
+
+- name: Acne Body
+  slug: acne-body
+  icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
+  treatments:
+    - 'therapeutic-massages-*'
+
+- name: Add Ons
+  slug: add-ons
+  icon: spa-lotus
+  subtitle: Firmer techniques to release tension and pain.
+  treatments:
+    - 'therapeutic-massages-*'
+
+
 
 - name: Wax
   slug: wax

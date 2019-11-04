@@ -41,15 +41,15 @@
 
 
 
-- name: Therapeutic Massages
+- name: Therapeutic Massage
   slug: therapeutic-massages-45m
   popularity: 1
   duration: 45
   price: 55.00
   symptoms:
-    - struggle-to-relax
-    - signs-of-stress
-    - burnout-symptoms
+    - Specific area of pain
+    - Signs of stress
+    - Lunch time Treat
 - name: Therapeutic Massages
   slug: therapeutic-massages-60m
   popularity: 3
