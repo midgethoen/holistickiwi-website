@@ -47,6 +47,7 @@ const Navigation = ({ siteTitle, path }) => (
         Waxing
       </Link>
       <Link to="/medical-conditions">Medical Conditions</Link>
+      <Link to="/products">Products</Link>
       <a className="" href="https://holistickiwishop.com/">
         Webshop
       </a>

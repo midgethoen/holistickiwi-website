@@ -2,25 +2,49 @@
 
 
 .topnav{
-  background-color: $topnav-bg-color;
+  //background-color: $topnav-bg-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 60px;
-  padding-right: 15px;
-  padding-left: 15px;
+  position: absolute;
+  width: 100%;
   a{
     color: $text-color-light;
-    margin: 0 15px
+    margin: 0px 30px;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    //font-family: Montserrat;
+    transition: all 0.5s ease;
+    &::before{
+      content: '';
+      border: 2px solid $hk-yellow;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      margin-left: -25px;
+      margin-top: 4px;
+      transform: rotateZ(100deg);
+      transition: all 0.5s ease;
+      opacity: 0;
+    }
+
+    &.active, &:hover{
+      text-decoration: none;
+      color: $hk-yellow;
+      border-bottom: 1px solid $hk-yellow;
+      &::before{
+        border: 2px solid $hk-yellow;
+        transform: rotateZ(45deg);
+        opacity: 1;
+      }
+    }
   }
 
   .topnav-left{
     a{
-      color: $hk-yellow;
     }
-  }
-  .active { 
-    color: black;
-    background-color: white;
   }
 }

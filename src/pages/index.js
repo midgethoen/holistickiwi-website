@@ -9,24 +9,13 @@ const IndexPage = () => (
   <Layout>
     <SEO />
 
-    <header className="header header-homepage">
-      <div className="headercontent">
-        <h3>Holistic Kiwi - Skin & Massage</h3>
-        <h1>Rediscover your confidence</h1>
-        <a
-          className="btn btn-primary"
-          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
-          type="button"
-        >
-          Book Your Treatment Now
-        </a>
-      </div>
-    </header>
+
+
 
 
 
     <main className="main-homepage section-purple section-center">
-      <h2>What are you looking for?</h2>
+      <h2>What can we help you with?</h2>
       <div className="card-container card-container-homepage">
         <Link to="/massages">
 
@@ -64,17 +53,19 @@ const IndexPage = () => (
 
         </Link>
 
-        <Link to="/advice">
 
-            <Icon
-              name={"check-2"}
-              color="primary"
-              className="icn"
-              alt="logo"
-            />
-            <h6>I need advice</h6>
 
-        </Link>
+
+
+        <a className="primary" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
+          <Icon
+            name={"check-2"}
+            color="white"
+            className="icn"
+            alt="logo"
+          />
+          <h6>Place booking</h6>
+        </a>
       </div>
     </main>
 

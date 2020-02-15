@@ -48,6 +48,20 @@ function App() {
 
       <header className="header header-homepage">
         <div className="headercontent">
+          <h3>Holistic Kiwi - Skin & Massage</h3>
+          <h1>Rediscover your confidence</h1>
+          <a
+            className="btn btn-primary"
+            href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+            type="button"
+          >
+            Book Your Treatment Now
+          </a>
+        </div>
+      </header>
+      
+      <header className="header header-homepage">
+        <div className="headercontent">
           <h3>
             Holistic Kiwi - Skin & Massage
           </h3>
