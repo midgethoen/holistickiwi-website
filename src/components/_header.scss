@@ -1,3 +1,24 @@
+
+
+
+.page-homepage.section-header{
+  background-color: $footer-bg-color;
+  background-image: linear-gradient(to bottom, rgba($brand-active, 0.3), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/felixlam-royspeak.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.page-homepage.section-closer{
+  background-color: $footer-bg-color;
+  background-image: linear-gradient(to bottom, rgba($brand-active, 0.3), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/felixlam-royspeak.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*
 .header{
   background-color: $hk-purple;
   color: $text-color-light;
@@ -51,3 +72,5 @@
     font-size: 18px;
   }
 }
+
+*/

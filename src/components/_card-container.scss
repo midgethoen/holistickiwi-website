@@ -1,3 +1,86 @@
+
+
+
+
+.card-container{
+  //background-color: blue;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
+  > a{
+    position: relative;
+    margin: 16px;
+    color: $white;
+    @media (min-width: 576px) {max-width: calc(50% - 32px);}
+  //@media (min-width: 768px) {max-width: calc(33.3% - 32px);}
+    @media (min-width: 992px) {
+      width: calc(25% - 32px);
+      max-width:280px;
+   }
+
+    h4{
+      padding-top: 16px;
+    }
+    &:hover{
+      h4{
+        text-decoration: underline;
+      }
+      .card-image{
+        opacity: .9;
+      }
+    }
+  }
+}
+
+
+
+//card images
+.card-image{
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  h3{
+    color: $white;
+    text-align: center;
+    padding-top: 44px;
+  }
+}
+
+.image-massage{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                    url('../images/img/yoannboyer-water.jpg');
+}
+
+.image-skincare{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                    url('../images/img/nathandumlao-skin.jpg');
+}
+
+
+.image-waxing{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                    url('../images/img/avasol-flowers.jpg');
+}
+
+.image-kitti{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/indebuurt-kitti.jpg');
+  @media (min-width: 768px) {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/indebuurt-kitti.jpg');
+    }
+
+  background-size: cover;
+  background-position: left;
+}
+
+
+
+
+/*
 //----------------------default card styles
 .card-container a:hover{
   text-decoration: none;
@@ -132,3 +215,5 @@
   }
 
 }
+
+*/

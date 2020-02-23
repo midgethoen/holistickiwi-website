@@ -1,3 +1,50 @@
+body{
+  font-family: $font-body;
+}
+
+h1,h2,h3{
+  font-family: $font-header;
+}
+
+h1,h2,h3, h4, h5, h6, p{
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 64px;
+  font-weight: normal;
+  line-height: 64px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: normal;
+}
+h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+h4{
+  font-family: $font-body;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h4+p{
+  padding-top: 8px;
+}
+
+p+p{
+  padding-top: 24px;
+}
+/*
 
 //----------------------padding/margin reset
 *{
@@ -58,3 +105,5 @@ h2 + p{
 p + button{
   margin-top: 30px;
 }
+
+*/

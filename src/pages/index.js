@@ -11,144 +11,125 @@ const IndexPage = () => (
 
 
 
+    <header className="page-homepage section-header">
+      <div className="content">
+        <h1>Rediscover<br/> your confidence
+        </h1>
+        <a
+          className="btn btn-primary"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          type="button"
+        >
+          Book Your Treatment Now
+        </a>
+      </div>
+    </header>
 
 
+    <main className="page-homepage section-cardselection colorscheme-purple">
 
-    <main className="main-homepage section-purple section-center">
       <h2>What can we help you with?</h2>
-      <div className="card-container card-container-homepage">
-        <Link to="/massages">
+      <div className="card-container">
+        <Link to="/massageoverview">
 
-            <Icon
-              name={"spa-lotus"}
-              color="primary"
-              className="icn"
-              alt="logo"
-            />
-            <h6>Massages</h6>
-
+            <div className="card-image image-massage">
+              <h3>Massages</h3>
+            </div>
+            <h4>Massages</h4>
+            <p>
+            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility. Techniques include Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            </p>
         </Link>
 
-        <Link to="/skincare">
+        <Link to="/massageoverview">
 
-            <Icon
-              name={"body-care-eye-mask"}
-              color="primary"
-              className="icn"
-              alt="logo"
-            />
-            <h6>Skin Treatments</h6>
-
-        </Link>
-
-        <Link to="/wax">
-
-            <Icon
-              name={"flying-insect-honey"}
-              color="primary"
-              className="icn"
-              alt="logo"
-            />
-            <h6>Waxing</h6>
-
+            <div className="card-image image-skincare">
+              <h3>Skincare<br/>Treatments</h3>
+            </div>
+            <h4>Skincare Treatments</h4>
+            <p>
+            Never will you leave a facial treatment red, damaged and blotchy, or unsure about how to take care of your skin.</p>
+            <p>Specialising in Sensitive and Ethnic skin, we ensure you not only receive the correct treatment for your skin, but advice on how to care for it at home.            </p>
         </Link>
 
 
+        <Link to="/massageoverview">
 
+            <div className="card-image image-waxing">
+              <h3>Waxing</h3>
+            </div>
+            <h4>Waxing</h4>
+            <p>
+            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility. Techniques include Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            </p>
+        </Link>
 
 
         <a className="primary" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
-          <Icon
-            name={"check-2"}
-            color="white"
-            className="icn"
-            alt="logo"
-          />
-          <h6>Place booking</h6>
+
+            <div className="card-image image-massage">
+              <h3>Place<br/>Booking</h3>
+            </div>
+            <h4>Place Booking</h4>
+            <p>
+            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility. Techniques include Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            </p>
         </a>
       </div>
     </main>
 
-    <div className="clients section-dark section-icnbar">
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-    </div>
+    <section className="page-homepage section-image-right colorscheme-image  image-kitti">
+      <div className="content">
+        <h3>About us</h3>
+        <p>Grohl formed Foo Fighters in 1994 after the death of Kurt Cobain, Nirvana's lead singer. Now Grohl was able to stretch his fingers and mind as he lead his new band, originally meant as an anonymous solo project, in guitar, vocals, and song writing. Many of the band's first songs were by Grohl during his Nirvana years.
+        </p>
+        <Link to="/about-us"> Read more </Link>
+        <div className="stat-row">
+          <div className="stat">
+            <h3>ANBOS |CIBTAC | CIDESCO | NZQA | ITEC</h3>
+            <p>International Qualifications</p>
+          </div>
+        </div>
+        <div className="stat-row">
+          <div className="stat">
+            <h3>5/5</h3>
+            <p>Verified Fresha Rating</p>
+          </div>
+          <div className="stat">
+            <h3>4.8/5</h3>
+            <p>Treatwell Rating</p>
+          </div>
+          <div className="stat">
+            <h3>4.5/5</h3>
+            <p>Google Rating</p>
+          </div>
+          <div className="stat">
+            <h3>884</h3>
+            <p>Treatments performed last year</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <header className="page-homepage section-closer">
+      <div className="content">
+        <h1>Your sensitive skin specialist
+        </h1>
+        <a
+          className="btn btn-primary"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          type="button"
+        >
+          Book Your Treatment Now
+        </a>
+      </div>
+    </header>
 
 
-    <div className="section-lightpurple section-center">
-      <h2>Holistic Kiwi</h2>
-      <p>
-        Welcome to your home for Sensitive Skin Treatments, and Massage Therapy in the centre of Delft.
-      </p>
-      <p>
-        Holistic = Systems/People and their properties are viewed as wholes, not just as a collection of parts.
-      </p>
-      <p>
-        Kiwi = Kiwiana, anything or anyone originating from New Zealand.
-      </p>
-        Why Holistic Kiwi?
 
-        ✓     Natural and effective treatments for sensitive and ethnic skins.
-        ✓     Advice that compliments your treatment plan.
-        ✓     100% natural, New Zealand products that embrace science.
-        ✓     Massages catered to you individually.
-        ✓     Qualified advice for posture, work related injuries and ongoing pain/stress issues.
-        ✓     Internationally qualified therapists.
 
-      <p>
-      </p>
-      <p>
-      </p>
-    </div>
 
-    <div className="certifications section-dark section-icnbar">
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-      <a href="#">
-        <Icon
-          name={"tudelftlogo"}
-          color="white"
-          className="icn"
-          alt="logo"
-        />
-      </a>
-    </div>
+
   </Layout>
 )
 

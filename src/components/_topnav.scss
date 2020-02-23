@@ -1,6 +1,18 @@
 //----------------------TopNav
 
+.topnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  position: absolute;
+  width: 100%;
+  a{
+    color: $text-color-light;
+  }
+}
 
+/*
 .topnav{
   //background-color: $topnav-bg-color;
   display: flex;
@@ -48,3 +60,5 @@
     }
   }
 }
+
+*/

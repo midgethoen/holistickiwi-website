@@ -1,3 +1,142 @@
+html{
+  width: 100%;
+  body{
+    min-width: 100%;
+    margin: 0;
+    position: absolute;
+  }
+}
+
+.section-header, .section-closer{
+  background-color: $brand-active;
+  color: $white;
+
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 32px;
+
+  .content{
+    //padding: 32px;
+    h1{
+      margin-bottom: 32px;
+    }
+  }
+}
+.section-closer{
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.section-cardselection{
+  padding: 64px 32px;
+}
+
+.section-image-right{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 32px 32px;
+  .content{
+    width: 100%;
+    @media (min-width: 768px) {
+      width: 50%;
+      max-width:480px;
+    }
+    h1{
+      margin-bottom: 32px;
+    }
+  }
+}
+
+.colorscheme-purple{
+  background-color: $brand-active;
+  color: $white;
+}
+
+.colorscheme-image{
+  color: $white;
+}
+
+
+.stat-row{
+  //background-color: red;
+  display: flex;
+  margin-top: 32px;
+  .stat{
+    width: 100%;
+    h3{
+      font-size: 20px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  .stat + .stat{
+    margin-left: 32px;
+  }
+}
+
+
+
+
+
+
+
+//----------------------Content
+
+
+.main-homepage{
+  //padding: 140px 0;
+  //height: 40vh;
+  // min-height: 400px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+}
+
+.page-intro{
+  //display: flex;
+  //justify-content: center;
+  //text-align: center;
+  p{
+    //padding: 64px 15px 0;
+    //max-width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+// infopage
+
+.info-page{
+  //padding-top: 60px;
+  //padding-bottom: 180px;
+  .item-wrap{
+    //max-width: $site-max-width;
+    //margin: 0 auto;
+    .item{
+      //max-width: 500px;
+    }
+    & + .item-wrap{
+      //background-color: $brand-light-bg;
+    }
+  }
+}
+
+
+/*
 // Section Theming
 @mixin baseSection {
   padding-top: 60px;
@@ -121,3 +260,5 @@
     left: 0px;
   }
 }
+
+*/
