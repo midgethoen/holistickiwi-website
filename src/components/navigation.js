@@ -8,46 +8,12 @@ const Navigation = ({ siteTitle, path }) => (
       <Link to="/">{siteTitle}</Link>
     </div>
     <div className="topnav-right">
-      <Link
-        to="/massages"
-        className={
-          [
-            "/massages",
-            "/therapeutic-massages",
-            "/relaxation-massages",
-          ].includes(path)
-            ? "active"
-            : undefined
-        }
-      >
-        Massages
-      </Link>
-      <Link
-        to="/skincare"
-        className={
-          [
-            "/skincare",
-          ].includes(path)
-            ? "active"
-            : undefined
-        }
-      >
-        Skincare Treatments
-      </Link>
-      <Link
-        to="/wax"
-        className={
-          [
-            "/wax",
-          ].includes(path)
-            ? "active"
-            : undefined
-        }
-      >
-        Waxing
-      </Link>
-      <Link to="/medical-conditions">Medical Conditions</Link>
-      <Link to="/products">Products</Link>
+
+      <Link className="" to="/massageoverview">Massages</Link>
+      <Link className="" to="/skintreatmentoverview">Skin Treatments</Link>
+      <Link className="" to="/waxoverview">waxing</Link>
+      <Link className="displaynone" to="/medical-conditions">Medical Conditions</Link>
+      <Link className="displaynone" to="/products">Products</Link>
       <a className="" href="https://holistickiwishop.com/">
         Webshop
       </a>
@@ -58,6 +24,7 @@ const Navigation = ({ siteTitle, path }) => (
       >
         Book Now
       </a>
+
     </div>
   </nav>
 )

@@ -1,9 +1,13 @@
 body{
   font-family: $font-body;
+  color: $text-color;
 }
 
 h1,h2,h3{
   font-family: $font-header;
+}
+h4,h5,h6{
+  font-family: $font-body;
 }
 
 h1,h2,h3, h4, h5, h6, p{
@@ -26,8 +30,13 @@ h3{
   font-weight: bold;
 }
 h4{
-  font-family: $font-body;
   font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h5{
+  font-size: 14px;
   font-weight: bold;
   line-height: 24px;
 }
@@ -35,6 +44,8 @@ h4{
 p{
   font-size: 16px;
   line-height: 24px;
+  display: block;
+  padding-bottom: 24px;
 }
 
 h4+p{
@@ -42,7 +53,24 @@ h4+p{
 }
 
 p+p{
-  padding-top: 24px;
+  //padding-top: 24px;
+}
+p+a{
+  //padding-top: 24px;
+  //display: block;
+  flex-grow: 0;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 14px;
+  //text-shadow: 0 -1px -1px rgba(255,255,255,0.5);
+}
+
+ul+h5{
+  padding-top: 32px;
 }
 /*
 

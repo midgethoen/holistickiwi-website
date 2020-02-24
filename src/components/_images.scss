@@ -1,0 +1,113 @@
+
+
+//Header images
+.section-header, .section-closer{
+  background-color: $footer-bg-color;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+//fullscreen bg images
+.image-homepage{
+  background-image: linear-gradient(to bottom, rgba($brand-active, 0.3), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/felixlam-royspeak.jpg');
+}
+
+.image-closer{
+  background-color: $footer-bg-color;
+  background-image: linear-gradient(to bottom, rgba($brand-active, 0.3), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/felixlam-royspeak.jpg');
+}
+
+
+.image-kitti{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/indebuurt-kitti.jpg');
+  @media (min-width: 768px) {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                      url('../images/img/indebuurt-kitti.jpg');
+    }
+
+  background-size: cover;
+  background-position: left;
+}
+
+
+
+//card images
+.image-massage{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                    url('../images/img/yoannboyer-water.jpg');
+}
+
+.image-skincare{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                    url('../images/img/nathandumlao-skin.jpg');
+}
+
+
+.image-waxing{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)),
+                    url('../images/img/avasol-flowers.jpg');
+}
+
+
+
+/*
+.header{
+  background-color: $hk-purple;
+  color: $text-color-light;
+  min-height: 400px;
+  height: 50vh;
+  max-height: 400px;
+  display: flex;
+  padding: 0 15px;
+  //flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  .headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .icn{
+    height: 48px;
+  }
+  a{
+    color: $text-color-light;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $font-header;
+    padding-top: 20px;
+  }
+  h1{
+    padding-top: 40px;
+  }
+  a + h1{
+    padding-top: 0px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+
+.header.header-homepage{
+  background-image: linear-gradient(to bottom, rgba($brand-active, 0.3), rgba(0, 0, 0, 0.8)),
+                    url('../images/img/homepage-header-bg.png');
+  background-size: cover;
+  background-color: $brand-active;
+  h1{
+    padding-top: 0px;
+  }
+  a.btn{
+    padding: 14px 40px;
+    font-size: 18px;
+  }
+}
+
+*/

@@ -11,7 +11,7 @@ const IndexPage = () => (
 
 
 
-    <header className="page-homepage section-header">
+    <header className="page-homepage section-header image-homepage">
       <div className="content">
         <h1>Rediscover<br/> your confidence
         </h1>
@@ -28,7 +28,7 @@ const IndexPage = () => (
 
     <main className="page-homepage section-cardselection colorscheme-purple">
 
-      <h2>What can we help you with?</h2>
+      <h2>How can we help you?</h2>
       <div className="card-container">
         <Link to="/massageoverview">
 
@@ -37,19 +37,32 @@ const IndexPage = () => (
             </div>
             <h4>Massages</h4>
             <p>
-            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility. Techniques include Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            We always customise our treatments to suit you and your body.
+            </p>
+            <p>
+            Depending on your goal, we offer  Relaxation Massage for the mind & mild body aches, or Theraputic Massage for pain and muscle health.
+            </p>
+            <p>
+            If you have a specific goal, we recommend you book 75 minutes for your first intake and massage.
             </p>
         </Link>
 
-        <Link to="/massageoverview">
+        <Link to="/skintreatmentoverview">
 
             <div className="card-image image-skincare">
-              <h3>Skincare<br/>Treatments</h3>
+              <h3>Skin<br/>Treatments</h3>
             </div>
-            <h4>Skincare Treatments</h4>
+            <h4>Skin Treatments</h4>
             <p>
-            Never will you leave a facial treatment red, damaged and blotchy, or unsure about how to take care of your skin.</p>
-            <p>Specialising in Sensitive and Ethnic skin, we ensure you not only receive the correct treatment for your skin, but advice on how to care for it at home.            </p>
+            We specialise in Sensitive and Ethnic promblematic skin.  For Acne fighters; we are covered by most health insurances.
+            </p>
+            <p>
+            Feel confident that you’ll receive the correct treatment for your skin as well as advice on how to care for your skin for best results.
+            </p>
+            <p>
+            If you have a specific goal, we recomend you book 75 minutes for your first intake and facial.
+            </p>
+
         </Link>
 
 
@@ -60,7 +73,10 @@ const IndexPage = () => (
             </div>
             <h4>Waxing</h4>
             <p>
-            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility. Techniques include Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            Lycon is an all natural, latex free wax that makes for a smooth and painless hair removal experience!
+            </p>
+            <p>
+            At Holistic Kiwi, we minimise the chance of ingrown hairs with our professional hygiene, techniques and care for the skin.
             </p>
         </Link>
 
@@ -72,7 +88,7 @@ const IndexPage = () => (
             </div>
             <h4>Place Booking</h4>
             <p>
-            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility. Techniques include Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            User our intuative booking system to find an appointment time that suites you.
             </p>
         </a>
       </div>
@@ -81,7 +97,11 @@ const IndexPage = () => (
     <section className="page-homepage section-image-right colorscheme-image  image-kitti">
       <div className="content">
         <h3>About us</h3>
-        <p>Grohl formed Foo Fighters in 1994 after the death of Kurt Cobain, Nirvana's lead singer. Now Grohl was able to stretch his fingers and mind as he lead his new band, originally meant as an anonymous solo project, in guitar, vocals, and song writing. Many of the band's first songs were by Grohl during his Nirvana years.
+        <p>
+        Holistic Kiwi was started in 2016 with the goal of creating a safe space to help those with ongoing skin issues such as Rosacea, Acne, Dermatitis/Eczema & Psoriasis.
+        </p>
+        <p>
+        We provide high quality Massage Therapy for ongoing aches and pains. This includes reducing symptoms of Frozen Shoulders and Fibromyalgia as well as office and sports injuries!
         </p>
         <Link to="/about-us"> Read more </Link>
         <div className="stat-row">
@@ -111,7 +131,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <header className="page-homepage section-closer">
+    <header className="page-homepage section-closer image-closer">
       <div className="content">
         <h1>Your sensitive skin specialist
         </h1>
