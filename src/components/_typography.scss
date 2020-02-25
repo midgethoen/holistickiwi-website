@@ -16,9 +16,12 @@ h1,h2,h3, h4, h5, h6, p{
 }
 
 h1{
-  font-size: 64px;
+  font-size: 48px;
   font-weight: normal;
   line-height: 64px;
+  @media (min-width: 768px) {
+    font-size: 64px;
+  }
 }
 
 h2{

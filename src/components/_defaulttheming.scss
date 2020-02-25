@@ -8,7 +8,7 @@ html{
 }
 
 .displaynone{
-  display: none;
+  display: none !important;
 }
 
 .section-cardselection{
@@ -25,6 +25,30 @@ html{
     }
   }
 }
+
+.section-info-dual{
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {flex-direction: row;}
+  .info-container{
+    padding: 64px;
+    @media (min-width: 768px) {
+      width: 66.66%;
+    }
+  }
+  .info-container:nth-child(2){
+    background-color: rgba(0,0,0,0.2);
+    @media (min-width: 768px) {
+      width: 33.33%;
+    }
+  }
+  .info-container .content{
+    @media (min-width: 768px) {
+      max-width: 480px;
+    }
+  }
+}
+
 
 .section-treatmentcontainer{
   display: flex;
@@ -72,7 +96,7 @@ html{
 }
 
 
-.section-image-right{
+.section-image-right, .section-image-left{
   display: flex;
   flex-direction: row-reverse;
   padding: 32px 32px;
@@ -88,9 +112,24 @@ html{
   }
 }
 
+.section-image-left{
+  flex-direction: row;
+}
+
+
+.colorscheme-purple, .colorscheme-dark{
+  color: $white;
+  a{
+    color: $brand-primary;
+  }
+}
+
 .colorscheme-purple{
   background-color: $brand-active;
-  color: $white;
+}
+
+.colorscheme-dark{
+  background-color: $footer-bg-color;
 }
 
 .colorscheme-image{

@@ -11,7 +11,7 @@ const Navigation = ({ siteTitle, path }) => (
 
       <Link className="" to="/massageoverview">Massages</Link>
       <Link className="" to="/skintreatmentoverview">Skin Treatments</Link>
-      <Link className="" to="/waxoverview">waxing</Link>
+      <Link className="" to="/waxoverview">Waxing</Link>
       <Link className="displaynone" to="/medical-conditions">Medical Conditions</Link>
       <Link className="displaynone" to="/products">Products</Link>
       <a className="" href="https://holistickiwishop.com/">

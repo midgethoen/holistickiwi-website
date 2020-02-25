@@ -11,9 +11,9 @@ const IndexPage = () => (
 
 
 
-    <header className="page-massage section-header image-massage">
+    <header className="page-massage section-header image-waxing">
       <div className="content">
-        <h1>Massages
+        <h1>Waxing
         </h1>
         <a
           className="btn btn-primary"
@@ -27,9 +27,12 @@ const IndexPage = () => (
 
     <section className="page-massage section-info colorscheme-purple">
       <div className="content">
-        <h2>Massages</h2>
+        <h2>Waxing</h2>
         <p>
-          Because every body is different, so are our massages. We don’t work with set routines, we mix and match different techniques and styles to give you the most effective massages around!
+        Text hier
+        </p>
+        <p>
+        Text hier
         </p>
       </div>
     </section>
@@ -39,47 +42,40 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Theraputic massage</h3>
+            <h3>Hotwax</h3>
             <p>
-            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility.
-            </p>
-            <p>
-            More focus on Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+              text here
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Now
+              Book Your Treatment Now
             </a>
           </div>
           <div className="tags">
-            <h5>Basic Info</h5>
+            <h5>Includes</h5>
             <ul>
-              <li>Consultation</li>
-              <li>Postural Analysis</li>
-              <li>Massage</li>
+              <li>Double Cleanse & Exfoliation</li>
+              <li>Traditional Mask</li>
+              <li>Suitable Serum and mosturiser</li>
+              <li>Neck/Shoulder Massage</li>
+              <li>Intensive Hydration Treat (75m+)</li>
+              <li>BrowTidy  (75m+)</li>
+              <li>Massage Mask  (90m+)</li>
+            </ul>
+            <h5>Skincare Brands</h5>
+            <ul>
+              <li>Snowberry</li>
+              <li>Living Nature</li>
+              <li>Pure Peony</li>
             </ul>
             <h5>If you suffer from</h5>
             <ul>
               <li>Stress</li>
-              <li>Burnout symptoms</li>
-              <li>Fibromyalgia</li>
-              <li>Lymph swelling/Odema</li>
-              <li>Muscle Tension</li>
-              <li>Injuries (RSI, Neck/Shoulder)</li>
-              <li>Sport injury </li>
-
-            </ul>
-            <h5>Techniques used</h5>
-            <ul>
-              <li>Trigger point</li>
-              <li>Ayurvedic Techniques</li>
-              <li>Deep Tissue</li>
-              <li>Myofascial Release</li>
-              <li>Sports Massage</li>
-
+              <li>Minimal skin issues</li>
+              <li>Fine Lines</li>
             </ul>
 
           </div>
@@ -89,42 +85,40 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Relaxation massage</h3>
+            <h3>Stripwax</h3>
             <p>
-              Focus is on soothing mental stress and relieving mild body tension.
-            </p>
-            <p>
-              Pressure is gentle to firm, with a focus on sweeping Swedish styles of Massage.
+              Let your skin feel shiny and new with our gentle diamond microdermabraion machine, followed by an intenstive hydration treat from our Manuka mask, and Ultrasound machine!
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Now
+              Book Your Treatment Now
             </a>
           </div>
           <div className="tags">
-            <h5>Basic Info</h5>
+            <h5>Includes</h5>
             <ul>
-              <li>Consultation</li>
-              <li>Postural Analysis</li>
-              <li>Massage</li>
+              <li>Double Cleanse & Exfoliation</li>
+              <li>Traditional Mask</li>
+              <li>Suitable Serum and mosturiser</li>
+              <li>Neck/Shoulder Massage</li>
+              <li>Intensive Hydration Treat (75m+)</li>
+              <li>BrowTidy  (75m+)</li>
+              <li>Massage Mask  (90m+)</li>
+            </ul>
+            <h5>Skincare Brands</h5>
+            <ul>
+              <li>Snowberry</li>
+              <li>Living Nature</li>
+              <li>Pure Peony</li>
             </ul>
             <h5>If you suffer from</h5>
             <ul>
               <li>Stress</li>
-              <li>Tension</li>
-              <li>Fluid (Lymph) swelling</li>
-              <li>Burnout symptoms</li>
-              <li>Poor circulation </li>
-              <li>Lack of “Me” time</li>
-            </ul>
-            <h5>Techniques used</h5>
-            <ul>
-              <li>Swedish massage</li>
-              <li>Trigger point massage</li>
-              <li>Ayurvedic Techniques</li>
+              <li>Minimal skin issues</li>
+              <li>Fine Lines</li>
             </ul>
 
           </div>

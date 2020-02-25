@@ -66,7 +66,7 @@ const IndexPage = () => (
         </Link>
 
 
-        <Link to="/massageoverview">
+        <Link to="/waxoverview">
 
             <div className="card-image image-waxing">
               <h3>Waxing</h3>
@@ -83,7 +83,7 @@ const IndexPage = () => (
 
         <a className="primary" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">
 
-            <div className="card-image image-massage">
+            <div className="card-image image-booking">
               <h3>Place<br/>Booking</h3>
             </div>
             <h4>Place Booking</h4>
@@ -103,7 +103,7 @@ const IndexPage = () => (
         <p>
         We provide high quality Massage Therapy for ongoing aches and pains. This includes reducing symptoms of Frozen Shoulders and Fibromyalgia as well as office and sports injuries!
         </p>
-        <Link to="/about-us"> Read more </Link>
+        <Link className="btn btn-secondary"to="/about-us"> Read more </Link>
         <div className="stat-row">
           <div className="stat">
             <h3>ANBOS |CIBTAC | CIDESCO | NZQA | ITEC</h3>

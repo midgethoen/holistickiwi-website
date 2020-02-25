@@ -1,24 +1,23 @@
 
 .footer-wrap{
-  background-color: $footer-bg-color;
-  color: $brand-primary;
-  padding: 40px 15px;
-  .col-wrap{
-    //background-color: red;
-    max-width: $site-max-width;
-    margin: 0 auto;
+  padding: 20px 16px;
+  width: calc(100% - 32px);
+  .content{
     display: flex;
+    flex-direction: column;
     .col{
-      //background-color: blue;
-      width: 25%;
+      width: 100%;
+      padding: 20px 0;
       a{
         display: block;
-        color: $brand-primary;
-      }
-      p{
-        color: $white;
       }
     }
-
+    @media (min-width: 768px) {
+      flex-direction: row;
+      .col{
+        width: 25%;
+        padding: 20px 0;
+      }
+    }
   }
 }

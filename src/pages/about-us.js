@@ -1,104 +1,172 @@
 import React from "react"
-import Icon from '../components/Icon'
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
+import Icon from "../components/Icon"
 
-const NotFoundPage = () => (
+const IndexPage = () => (
   <Layout>
-  <header className="header header-contextpage">
-    <div className="headercontent">
-      <Icon name={"spa-lotus"} className="icn" alt="logo" />
+    <SEO />
 
-      <h1>about us</h1>
 
-      <a
-      className="btn btn-primary"
-      href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
-      type="button"
-      >
-        Book Now
-      </a>
 
-    </div>
-  </header>
-
-    <article className="section bgc-kitti text-right">
-      <div className="section-content">
-        <div>
-        <h3>Kitti Bradley</h3>
-          <p>
-            Holistic Kiwi was started by Kitti Bradley because she was unable to find a skin and massage salon that met the standards that she was used to in New Zealand.
-          </p>
-          <p>
-            Due to her personal struggle with sensitive skin she understands the importance of quality products and service.
-          </p>
-          <p>
-            With international qualifications in Beauty Therapy, Spa Therapy and Body & Nutrition (CIBTAC, CIDESCO, NZQA), Kitti is truly passionate about helping clients combat their issues.
-          </p>
-        </div>
-      </div>
-    </article>
-
-    <article className="section bgc-mary text-left">
-      <div className="section-content">
-        <div>
-          <h3>Mary Darbyshire</h3>
-          <p>
-            Holistic Kiwi was started by Kitti Bradley because she was unable to find a skin and massage salon that met the standards that she was used to in New Zealand.
-          </p>
-          <p>
-            Due to her personal struggle with sensitive skin she understands the importance of quality products and service.
-          </p>
-          <p>
-            With international qualifications in Beauty Therapy, Spa Therapy and Body & Nutrition (CIBTAC, CIDESCO, NZQA), Kitti is truly passionate about helping clients combat their issues.
-          </p>
-        </div>
-      </div>
-    </article>
-
-    <article className="section bgc-jason text-right">
-      <div className="section-content">
-        <div>
-          <h3>Jason Teunissen</h3>
-          <p>
-            Kiwi born, to Dutch parents, Jason moved to the Netherlands when he was 13. He is fluent in both Dutch and English.
-          </p>
-          <p>
-            By trade an App Design & Usability Consultant, Jason is our guy when it comes to Branding, Marketing and Usability for our clients.
-          </p>
-          <p>
-            Jason brings Holistic Kiwi into the 21st century, ensuring clients online experience is smooth, easy and logical, not just pretty.
-          </p>
-        </div>
-      </div>
-    </article>
-
-    <header className="header header-contextpage catch">
-      <div className="headercontent">
-        <Icon name={"spa-lotus"} className="icn" alt="logo" />
-
-        <h3>Experience why Holistic Kiwi has the best reviews</h3>
-
+    <header className="page-massage section-header image-waxing">
+      <div className="content">
+        <h1>About us
+        </h1>
         <a
-        className="btn btn-primary"
-        href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
-        type="button"
+          className="btn btn-primary"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          type="button"
         >
-          Book Now
+          Book Your Treatment Now
         </a>
-
       </div>
     </header>
 
+    <section className="page-massage section-info colorscheme-purple">
+      <div className="content">
+        <h2>About us</h2>
+        <p>
+        Text hier
+        </p>
+        <p>
+        Text hier
+        </p>
+      </div>
+    </section>
+
+    <section className="page-homepage section-image-right colorscheme-image  image-kitti">
+      <div className="content">
+        <h3>Kitti</h3>
+        <p>
+          Kitti started Holistic Kiwi when she was unable to find a skin and massage salon that met the standards that she was used to in New Zealand.
+        </p>
+        <p>
+          Due to her personal struggle with Dermatitis and Sensitive skin, she understands the importance of quality products and honest therapists.
+        </p>
+        <p>
+        With international qualifications in Beauty Therapy, Spa Therapy and Body & Nutrition (CIBTAC, CIDESCO, NZQA), Kitti is truly passionate about helping clients combat their issues.
+        </p>
+
+        <div className="stat-row">
+          <div className="stat">
+            <h3>ANBOS |CIBTAC | CIDESCO | NZQA | ITEC</h3>
+            <p>International Qualifications</p>
+          </div>
+        </div>
+        <div className="stat-row">
+          <div className="stat">
+            <h3>5/5</h3>
+            <p>Verified Fresha Rating</p>
+          </div>
+          <div className="stat">
+            <h3>4.8/5</h3>
+            <p>Treatwell Rating</p>
+          </div>
+          <div className="stat">
+            <h3>4.5/5</h3>
+            <p>Google Rating</p>
+          </div>
+          <div className="stat">
+            <h3>884</h3>
+            <p>Treatments performed last year</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="page-homepage section-image-left colorscheme-image  image-mary">
+      <div className="content">
+        <h3>Mary</h3>
+        <p>
+        Holistic Kiwi was started in 2016 with the goal of creating a safe space to help those with ongoing skin issues such as Rosacea, Acne, Dermatitis/Eczema & Psoriasis.
+        </p>
+        <p>
+        We provide high quality Massage Therapy for ongoing aches and pains. This includes reducing symptoms of Frozen Shoulders and Fibromyalgia as well as office and sports injuries!
+        </p>
+
+        <div className="stat-row">
+          <div className="stat">
+            <h3>ANBOS |CIBTAC | CIDESCO | NZQA | ITEC</h3>
+            <p>International Qualifications</p>
+          </div>
+        </div>
+        <div className="stat-row">
+          <div className="stat">
+            <h3>5/5</h3>
+            <p>Verified Fresha Rating</p>
+          </div>
+          <div className="stat">
+            <h3>4.8/5</h3>
+            <p>Treatwell Rating</p>
+          </div>
+          <div className="stat">
+            <h3>4.5/5</h3>
+            <p>Google Rating</p>
+          </div>
+          <div className="stat">
+            <h3>884</h3>
+            <p>Treatments performed last year</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="page-homepage section-image-right colorscheme-image  image-jason">
+      <div className="content">
+        <h3>Jason</h3>
+        <p>
+          Kiwi born, to Dutch parents, Jason moved to the Netherlands when he was 13. He is fluent in both Dutch and English.
+        </p>
+        <p>
+          By trade an App Design & Usability Architect, Jason is our guy when it comes to all non-treatment things such as; Branding, Marketing, Finances, Navigating Beurocracy but most importantly; Ensuring clients can experience the best of what holistic Kiwi has to offer.
+        </p>
+        <p>
+          Jason brings a fresh (and male) voice to how we can improve our business and he challanges us on all aspects.
+        </p>
+
+        <div className="stat-row">
+          <div className="stat">
+            <h3>Communication & Multimedia Design</h3>
+            <p>International Qualifications</p>
+          </div>
+        </div>
+        <div className="stat-row">
+          <div className="stat">
+            <h3>61</h3>
+            <p>days surfed last year</p>
+          </div>
+          <div className="stat">
+            <h3>45.5</h3>
+            <p>shoe size</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
 
 
+
+    <header className="page-homepage section-closer image-closer">
+      <div className="content">
+        <h1>Your sensitive skin specialist
+        </h1>
+        <a
+          className="btn btn-primary"
+          href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
+          type="button"
+        >
+          Book Your Treatment Now
+        </a>
+      </div>
+    </header>
 
 
   </Layout>
 )
 
-export default NotFoundPage
+export default IndexPage

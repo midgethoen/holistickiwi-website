@@ -25,12 +25,41 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section className="page-massage section-info colorscheme-purple">
-      <div className="content">
-        <h2>Skin Treatments</h2>
-        <p>
-          Because every body is different, so are our massages. We don’t work with set routines, we mix and match different techniques and styles to give you the most effective massages around!
-        </p>
+    <section className="page-massage section-info-dual colorscheme-purple">
+      <div className="info-container">
+        <div className="content">
+          <h2>Skin Treatments</h2>
+          <p>
+            Whether it’s a pamper session or a goal focused skin treatment, we have you covered.
+          </p>
+          <p>
+            You to choose your treatment by main goal and we will discuss it with you during your intake to ensure the best solution!
+          </p>
+          <p>
+            We use 100% Natural, New Zealand made skincare that has undergone more scientific research and development than most brands.
+          </p>
+          <p>
+            Our products turn the heads of the medical community with their ability to heal and sooth the skin.
+          </p>
+        </div>
+      </div>
+      <div className="info-container">
+        <div className="content">
+          <h2>Skincare Products</h2>
+          <p>
+            Our delicious NZ made natural ranges make the most of nature and science working together.
+          </p>
+          <p>
+          We have products you can view online, and we are constantly expanding our ranges.
+          </p>
+          <a
+            className="btn btn-secondary"
+            href="https://holistickiwishop.com/"
+            type="button"
+          >
+            View Webshop
+          </a>
+        </div>
       </div>
     </section>
 
