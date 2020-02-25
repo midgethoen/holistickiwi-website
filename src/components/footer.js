@@ -17,9 +17,8 @@ export default () => (
         <Link className="" to="/massageoverview">Massages</Link>
         <Link className="" to="/skintreatmentoverview">Skin Treatments</Link>
         <Link className="" to="/waxoverview">Waxing</Link>
-        <a className="" href="https://holistickiwishop.com/">
-          Webshop
-        </a>
+        <a className="" href="https://holistickiwishop.com/">Webshop</a>
+        <a className="" href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f">Booking</a>
       </div>
       <div className="col">
         <a href="https://www.facebook.com/Holistickiwi/">Facebook</a>
