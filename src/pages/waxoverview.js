@@ -45,9 +45,9 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Hotwax</h3>
+            <h3>Hot Wax</h3>
             <p>
-              text here
+              This is a
             </p>
             <a
               className="btn btn-primary"

@@ -60,7 +60,7 @@ const IndexPage = () => (
               <h3>Waxing</h3>
             </div>
             <h4>Waxing</h4>
-        
+
             <p>
             At Holistic Kiwi, we minimise the chance of ingrown hairs with our professional hygiene, techniques and care for the skin.
             </p>
@@ -74,7 +74,7 @@ const IndexPage = () => (
             </div>
             <h4>Place Booking</h4>
             <p>
-            User our intuative booking system to find an appointment time that suites you.
+            Use our intuative booking system to find an appointment time that suites you.
             </p>
         </a>
       </div>
