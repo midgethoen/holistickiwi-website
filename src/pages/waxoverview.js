@@ -29,10 +29,13 @@ const IndexPage = () => (
       <div className="content">
         <h2>Waxing</h2>
         <p>
-        Text hier
+        Lycon is an all natural, latex free wax that makes for a smooth and painless hair removal experience! Hairs are removed by the root (minimizing that annoying feeling of stuble) and skin is left nourished and undamaged.
         </p>
         <p>
-        Text hier
+        While it is made in Australia, not New Zealand, there is nothing on the market that can complete with Lycon's gentle yet effective hair removal.
+        </p>
+        <p>
+        Our highly trained therapists use techniques that make waxing close to painless, and help you with any ongoing issues with ingrown hairs.
         </p>
       </div>
     </section>

@@ -37,30 +37,18 @@ const IndexPage = () => (
             </div>
             <h4>Massages</h4>
             <p>
-            We always customise our treatments to suit you and your body.
+            Get a massage from a fully qualified therapist and feel the difference! We customise our massages to ensure we address your concerns.
             </p>
-            <p>
-            Depending on your goal, we offer  Relaxation Massage for the mind & mild body aches, or Theraputic Massage for pain and muscle health.
-            </p>
-            <p>
-            If you have a specific goal, we recommend you book 75 minutes for your first intake and massage.
-            </p>
+
         </Link>
 
         <Link to="/skintreatmentoverview">
-
             <div className="card-image image-skincare">
               <h3>Skin<br/>Treatments</h3>
             </div>
             <h4>Skin Treatments</h4>
             <p>
             We specialise in Sensitive and Ethnic promblematic skin.  For Acne fighters; we are covered by most health insurances.
-            </p>
-            <p>
-            Feel confident that you’ll receive the correct treatment for your skin as well as advice on how to care for your skin for best results.
-            </p>
-            <p>
-            If you have a specific goal, we recomend you book 75 minutes for your first intake and facial.
             </p>
 
         </Link>
@@ -72,9 +60,7 @@ const IndexPage = () => (
               <h3>Waxing</h3>
             </div>
             <h4>Waxing</h4>
-            <p>
-            Lycon is an all natural, latex free wax that makes for a smooth and painless hair removal experience!
-            </p>
+        
             <p>
             At Holistic Kiwi, we minimise the chance of ingrown hairs with our professional hygiene, techniques and care for the skin.
             </p>

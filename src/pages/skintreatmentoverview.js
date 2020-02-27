@@ -20,7 +20,7 @@ const IndexPage = () => (
           href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
           type="button"
         >
-          Book Your Treatment Now
+          Book Now
         </a>
       </div>
     </header>
@@ -30,16 +30,18 @@ const IndexPage = () => (
         <div className="content">
           <h2>Skin Treatments</h2>
           <p>
-            Whether it’s a pamper session or a goal focused skin treatment, we have you covered.
           </p>
           <p>
-            You to choose your treatment by main goal and we will discuss it with you during your intake to ensure the best solution!
+            Whether it’s Acne, a Pamper Session or Goal Focused Facials, we have you covered.
           </p>
           <p>
-            We use 100% Natural, New Zealand made skincare that has undergone more scientific research and development than most brands.
+            We specialise in Sensitive and Ethnic skin problems. Highly Reactive Skin? Eczema? Dermatitis? Psoriasis? Rosacea? Let us help you soothe and nourish your skin!
           </p>
           <p>
-            Our products turn the heads of the medical community with their ability to heal and sooth the skin.
+            Feel confident that you’ll receive the correct treatment for your skin as well as advice on how to care for your skin for best results.
+          </p>
+          <p>
+            If you have a specific goal, we recomend you book a minimum of 75 minutes for your first intake and facial treatment.
           </p>
         </div>
       </div>
@@ -50,7 +52,13 @@ const IndexPage = () => (
             Our delicious NZ made natural ranges make the most of nature and science working together.
           </p>
           <p>
-          We have products you can view online, and we are constantly expanding our ranges.
+            We use 100% Natural, New Zealand made skincare that has undergone more scientific research and development than most brands.
+          </p>
+          <p>
+           The results of these studies turn the heads of the medical community with their ability to heal and sooth the skin.
+          </p>
+          <p>
+           We have products you can view online, and we are constantly expanding our ranges.
           </p>
           <a
             className="btn btn-secondary"
@@ -77,7 +85,7 @@ const IndexPage = () => (
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
@@ -85,11 +93,10 @@ const IndexPage = () => (
             <ul>
               <li>Double Cleanse & Exfoliation</li>
               <li>Traditional Mask</li>
-              <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
+              <li>Neck/Shoulder Massage (75min+)</li>
               <li>BrowTidy  (75m+)</li>
               <li>Massage Mask  (90m+)</li>
+              <li>Suitable Serum and mosturiser</li>
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
@@ -113,26 +120,26 @@ const IndexPage = () => (
           <div className="description">
             <h3>Microdermabrassion</h3>
             <p>
-              Let your skin feel shiny and new with our gentle diamond microdermabraion machine, followed by an intenstive hydration treat from our Manuka mask, and Ultrasound machine!
+              Let your skin feel shiny and new with our gentle diamond microdermabraion machine, followed by an intenstive hydration treat from our Manuka mask, and Ultrasound treatment!
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
             <h5>Includes</h5>
             <ul>
               <li>Double Cleanse & Exfoliation</li>
-              <li>Traditional Mask</li>
+              <li>Extraction</li>
+              <li>Intensive Hydration Treat</li>
+              <li>Massage Mask  (75min+)</li>
+              <li>Neck/Shoulder Massage (90min+)</li>
+              <li>BrowTidy  (90min+)</li>
               <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
@@ -142,9 +149,11 @@ const IndexPage = () => (
             </ul>
             <h5>If you suffer from</h5>
             <ul>
-              <li>Stress</li>
-              <li>Minimal skin issues</li>
+              <li>Scarring</li>
+              <li>Pigmentation</li>
               <li>Fine Lines</li>
+              <li>Rough/Flakey Skin</li>
+              <li>Dull/Lifeless Complexion</li>
             </ul>
 
           </div>
@@ -154,16 +163,19 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Traditional Facials</h3>
+            <h3>Specialized Facials</h3>
             <p>
-              These are the classic pamper and relaxation treatments!
+             Don't let Rosacea, Dermatitis/Eczema or Psoriasis hold you back! Our qualified therapists specialise in helping you restore you skin's health.
+            </p>
+            <p>
+             We have special, frangrance free products designed for these skin conditions! We also help your recovery by advising you on diet and nutrition to help reduce inflamation and strengthen your AutoImmune System.
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
@@ -171,11 +183,11 @@ const IndexPage = () => (
             <ul>
               <li>Double Cleanse & Exfoliation</li>
               <li>Traditional Mask</li>
+              <li>Intensive Hydration Treat </li>
+              <li>BrowTidy </li>
+              <li>Massage Mask (90min+)</li>
+              <li>Neck/Shoulder Massage (90min+)</li>
               <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
@@ -185,9 +197,10 @@ const IndexPage = () => (
             </ul>
             <h5>If you suffer from</h5>
             <ul>
-              <li>Stress</li>
-              <li>Minimal skin issues</li>
-              <li>Fine Lines</li>
+              <li>Dermatitis/Eczema</li>
+              <li>Rosacea</li>
+              <li>Reactive  Skin</li>
+              <li>Psoriasis</li>
             </ul>
 
           </div>
@@ -197,28 +210,29 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Traditional Facials</h3>
+            <h3>Acne Treatments</h3>
             <p>
-              These are the classic pamper and relaxation treatments!
+              Trouble with acne? Our therapists are qualified to work with medical grade acne. This means dependent on your health insurance, you can reclaim the costs of your acne treatments with us!
+            </p>
+            <p>
+              We work with medical grade Antibacterial Manuka products to help kill bacteria overgrowth causing infections, as well as regeneration of healthy skin cells to minimize scarring.
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
             <h5>Includes</h5>
             <ul>
               <li>Double Cleanse & Exfoliation</li>
-              <li>Traditional Mask</li>
+              <li>Extraction</li>
+              <li>Antibacterial Hydration Treat</li>
+              <li>Antibacterial Mask  (90m+)</li>
               <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
@@ -228,9 +242,8 @@ const IndexPage = () => (
             </ul>
             <h5>If you suffer from</h5>
             <ul>
-              <li>Stress</li>
-              <li>Minimal skin issues</li>
-              <li>Fine Lines</li>
+              <li>Acne</li>
+              <li>Old Acne (scarring)</li>
             </ul>
 
           </div>
@@ -240,42 +253,37 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Traditional Facials</h3>
+            <h3>Add On's</h3>
             <p>
-              These are the classic pamper and relaxation treatments!
+              After something extra? We have options for you to add them to your treatment at a lower price than booked seperately!
+            </p>
+            <p>
+             Your add on treatment will be discounted at reception upon payment.
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
-            <h5>Includes</h5>
+            <h5>Choose From</h5>
             <ul>
-              <li>Double Cleanse & Exfoliation</li>
-              <li>Traditional Mask</li>
-              <li>Suitable Serum and mosturiser</li>
+              <li>Brow Wax & Tidy</li>
+              <li>Eye Trio (Lash & Brow tint + Brow tidy)</li>
+              <li>Facial Waxing</li>
               <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
+              <li>Scalp Massage</li>
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
               <li>Snowberry</li>
               <li>Living Nature</li>
               <li>Pure Peony</li>
+              <li>Lycon</li>
             </ul>
-            <h5>If you suffer from</h5>
-            <ul>
-              <li>Stress</li>
-              <li>Minimal skin issues</li>
-              <li>Fine Lines</li>
-            </ul>
-
           </div>
         </div>
       </div>
@@ -331,14 +339,14 @@ const IndexPage = () => (
 
     <header className="page-homepage section-closer image-closer">
       <div className="content">
-        <h1>Your sensitive skin specialist
+        <h1>Your Sensitive Skin Specialist
         </h1>
         <a
           className="btn btn-primary"
           href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
           type="button"
         >
-          Book Your Treatment Now
+          Book Now
         </a>
       </div>
     </header>

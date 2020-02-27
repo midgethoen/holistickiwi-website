@@ -117,6 +117,65 @@ html{
 }
 
 
+.section-contact{
+  padding: 64px 32px;
+  display: flex;
+  .map{
+    background-color: $footer-bg-color;
+    display: none;
+    @media (min-width: 768px){
+      display: block;
+      width: 77.77%;
+    }
+  }
+  .content{
+    width: 100%;
+    @media (min-width: 768px){
+      width: 33.33%;
+      padding: 0 64px;
+    }
+  }
+
+  table{
+    padding-bottom: 24px;
+    td:nth-child(1){
+      width: 116px;
+    }
+    td:nth-child(2){
+      text-align: right;
+    }
+    td:nth-child(3){
+      text-align: center;
+    }
+  }
+}
+
+
+
+// .section-info-dual{
+//   display: flex;
+//   flex-direction: column;
+//   @media (min-width: 768px) {flex-direction: row;}
+//   .info-container{
+//     padding: 64px;
+//     @media (min-width: 768px) {
+//       width: 66.66%;
+//     }
+//   }
+//   .info-container:nth-child(2){
+//     background-color: rgba(0,0,0,0.2);
+//     @media (min-width: 768px) {
+//       width: 33.33%;
+//     }
+//   }
+//   .info-container .content{
+//     @media (min-width: 768px) {
+//       max-width: 480px;
+//     }
+//   }
+// }
+
+// Color Schemes
 .colorscheme-purple, .colorscheme-dark{
   color: $white;
   a{

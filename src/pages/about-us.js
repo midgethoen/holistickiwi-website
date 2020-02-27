@@ -11,7 +11,7 @@ const IndexPage = () => (
 
 
 
-    <header className="page-massage section-header image-waxing">
+    <header className="page-massage section-header image-about">
       <div className="content">
         <h1>About us
         </h1>

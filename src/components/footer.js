@@ -10,6 +10,8 @@ export default () => (
         <Link className="displaynone" to="/treatment-comparison">Treatment comparison</Link>
         <Link className="displaynone" to="/certificates">Certificates</Link>
         <Link to="/privacy-statement">Privacy Statement</Link>
+        <a target="_blank" href="https://docs.google.com/document/d/14Gy2xqNJgR1gaxq335YIJibL1ommyPhgrFtW2znYd20/edit?usp=sharin">Terms & Conditions</a>
+        <a target="_blank" href="https://docs.google.com/document/d/14Gy2xqNJgR1gaxq335YIJibL1ommyPhgrFtW2znYd20/edit?usp=sharin">Privacy Statement</a>
         <Link className="displaynone" to="/view-results">View Results</Link>
         <Link className="displaynone" to="/organic-skincare-consultancy">Organic Skincare Consultancy</Link>
       </div>

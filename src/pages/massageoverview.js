@@ -31,6 +31,10 @@ const IndexPage = () => (
         <p>
           Because every body is different, so are our massages. We don’t work with set routines, we mix and match different techniques and styles to give you the most effective massages around!
         </p>
+        If you have a specific goal, we recommend you book 75 minutes for your first intake and massage.
+        <p>
+          Depending on your goal, we offer  Relaxation Massage for the mind & mild body aches, or Theraputic Massage for pain and muscle health.
+          </p>
       </div>
     </section>
 

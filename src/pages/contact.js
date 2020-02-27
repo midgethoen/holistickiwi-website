@@ -11,7 +11,7 @@ const IndexPage = () => (
 
 
 
-    <header className="page-massage section-header image-booking">
+    <header className="page-massage section-header image-contact">
       <div className="content">
         <h1>Contact
         </h1>
@@ -25,15 +25,41 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section className="page-massage section-info colorscheme-purple">
+
+    <section className="page-massage section-contact colorscheme-purple">
+      <div className="map">
+        map
+      </div>
       <div className="content">
-        <h2>Contact</h2>
+        <h4>Address</h4>
         <p>
-        Text hier
+          Kruisstraat 39-41<br/>
+          2611 ML Delft<br/>
+          The Netherlands
         </p>
+        <a className="btn btn-secondary" href="https://goo.gl/maps/fNDF7CKc3fgVGCS57"> Open in Google Maps</a>
+
+        <h4>Contact info</h4>
         <p>
-        Text hier
+          +31 (0)6 – 192 83 321<br/>
+          contact@holistickiwi.com
         </p>
+
+        <h4>Treatment Times</h4>
+          <table>
+              <tr> <td>Monday</td><td>12:00</td><td>-</td><td>20:00</td> </tr>
+              <tr> <td>Tuesday</td><td>10:00</td><td>-</td><td>18:00</td> </tr>
+              <tr> <td>Wednesday</td><td>9:00</td><td>-</td><td>21:00</td> </tr>
+              <tr> <td>Thursday</td><td>9:00</td><td>-</td><td>21:00</td> </tr>
+              <tr> <td>Friday</td><td>9:00</td><td>-</td><td>21:00</td> </tr>
+              <tr> <td>Saturday</td><td>9:30</td><td>-</td><td>17:00</td> </tr>
+              <tr> <td>Sunday</td><td colspan="3">closed</td> </tr>
+          </table>
+
+          <h4>Walk-in Consultation</h4>
+            <table>
+                <tr> <td>Saturday</td><td>11:00</td><td>-</td><td>17:00</td> </tr>
+            </table>
       </div>
     </section>
 
