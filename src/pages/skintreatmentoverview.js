@@ -32,16 +32,16 @@ const IndexPage = () => (
           <p>
           </p>
           <p>
-            Whether it’s Acne, a Pamper Session or Goal Focused Facials, we have you covered.
+            Whether it’s Acne, a Pamper Session or Goal Focused Facials, at Holistic Kiwi we have you covered.
           </p>
           <p>
-            We specialise in Sensitive and Ethnic skin problems. Highly Reactive Skin? Eczema? Dermatitis? Psoriasis? Rosacea? Let us help you soothe and nourish your skin!
+            We specialise in Sensitive and Ethnic skin issues. Our therapists can help you debunk myths from facts (YES, dark complexions ARE at risk of sunburn and skin cancer) as well as advise you of diet and lifestyle changes that may help fast track visible results.
           </p>
           <p>
-            Feel confident that you’ll receive the correct treatment for your skin as well as advice on how to care for your skin for best results.
+            Feel confident that you’ll receive the correct Facial for your skin, as well as advice on how to care for your skin for best results. At Holistic Kiwi, we refuse to push sales. We recomend you purchase products AFTER you have tried the samples at home!
           </p>
           <p>
-            If you have a specific goal, we recomend you book a minimum of 75 minutes for your first intake and facial treatment.
+            If you have a specific goal, we recomend you book a minimum of 75 minutes for your first intake and Facial treatment.
           </p>
         </div>
       </div>
@@ -78,7 +78,10 @@ const IndexPage = () => (
           <div className="description">
             <h3>Traditional Facials</h3>
             <p>
-              These are the classic pamper and relaxation treatments!
+              These are the classic pamper and relaxation Facials, where we focus on skin nourishment and stress relief.
+              </p>
+              <p>
+              They are perfect gifts (with our handy gift cards) as well as serving as the perfect "pick me up" for your skin.
             </p>
             <a
               className="btn btn-primary"
@@ -120,7 +123,13 @@ const IndexPage = () => (
           <div className="description">
             <h3>Microdermabrassion</h3>
             <p>
-              Let your skin feel shiny and new with our gentle diamond microdermabraion machine, followed by an intenstive hydration treat from our Manuka mask, and Ultrasound treatment!
+              Make your skin feel brand new with our gentle diamond microdermabraion machine!
+            </p>
+            <p>
+              It removes built up dead skin cells and congestion, Minimizes scarring and fine lines, as well as stimulating circulation of blood and lymph vessels.
+            </p>
+            <p>
+              Followed by an intenstive hydration treatment from our Manuka mask, and Ultrasound machine, skin is left soft and smoothe like a baby!
             </p>
             <a
               className="btn btn-primary"
@@ -168,7 +177,7 @@ const IndexPage = () => (
              Don't let Rosacea, Dermatitis/Eczema or Psoriasis hold you back! Our qualified therapists specialise in helping you restore you skin's health.
             </p>
             <p>
-             We have special, frangrance free products designed for these skin conditions! We also help your recovery by advising you on diet and nutrition to help reduce inflamation and strengthen your AutoImmune System.
+             We have special, frangrance free products designed for these skin conditions! We also help your recovery by helping you reduce inflamation and strengthen your Autoimmune System.
             </p>
             <a
               className="btn btn-primary"

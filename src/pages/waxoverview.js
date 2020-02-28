@@ -29,10 +29,13 @@ const IndexPage = () => (
       <div className="content">
         <h2>Waxing</h2>
         <p>
-        Lycon is an all natural, latex free wax that makes for a smooth and painless hair removal experience! Hairs are removed by the root (minimizing that annoying feeling of stuble) and skin is left nourished and undamaged.
+        Lycon is an all natural, latex free wax that makes for a smooth and (almost) painless hair removal experience!
         </p>
         <p>
-        While it is made in Australia, not New Zealand, there is nothing on the market that can complete with Lycon's gentle yet effective hair removal.
+        Hairs are removed by the root (minimizing that annoying feeling of stuble) and skin is left nourished and undamaged. We use antibacterial Manuka products to help soothe and heal the skin before and after wax treatment.
+        </p>
+        <p>
+        It is made in Australia, not New Zealand, but we can't hold that agaisnt it! There is nothing on the market that can complete with Lycon's gentle yet effective hair removal.
         </p>
         <p>
         Our highly trained therapists use techniques that make waxing close to painless, and help you with any ongoing issues with ingrown hairs.
@@ -47,38 +50,38 @@ const IndexPage = () => (
           <div className="description">
             <h3>Hot Wax</h3>
             <p>
-              This is a
+              Used for the more sensitive areas of the body, hot wax is heated warmer than traditional strip wax, allowing it to relax the hair follicle and remove stubborn hair with ease!
+            </p>
+            <p>
+            At Holistic Kiwi, we take special measures for hygiene and skin protection to ensure your intimate area's stay healthy and beautiful.
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
-            <h5>Includes</h5>
+            <h5>Used For</h5>
             <ul>
-              <li>Double Cleanse & Exfoliation</li>
-              <li>Traditional Mask</li>
-              <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
+              <li>Brazilian</li>
+              <li>G-String</li>
+              <li>Bikini</li>
+              <li>Armpits</li>
+              <li>Facial Area</li>
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
-              <li>Snowberry</li>
-              <li>Living Nature</li>
-              <li>Pure Peony</li>
+              <li>Lycon</li>
+
             </ul>
             <h5>If you suffer from</h5>
             <ul>
-              <li>Stress</li>
-              <li>Minimal skin issues</li>
-              <li>Fine Lines</li>
+              <li>Sensitive Skin</li>
+              <li>Ingrown Hairs</li>
+              <li>Hard to Remove Hair</li>
             </ul>
 
           </div>
@@ -88,40 +91,39 @@ const IndexPage = () => (
       <div className="treatment">
         <div className="content">
           <div className="description">
-            <h3>Stripwax</h3>
+            <h3>Strip Wax</h3>
             <p>
-              Let your skin feel shiny and new with our gentle diamond microdermabraion machine, followed by an intenstive hydration treat from our Manuka mask, and Ultrasound machine!
+              The more common of the waxing treatments, strip wax is used on larger area's with finer hair growth.
+            </p>
+            <p>
+              It is heated at a lower temperature, and is now days usually applied by a heated canister with a rolling head. It is then removed by fine strips of material or paper.
             </p>
             <a
               className="btn btn-primary"
               href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
               type="button"
             >
-              Book Your Treatment Now
+              Book Now
             </a>
           </div>
           <div className="tags">
             <h5>Includes</h5>
             <ul>
-              <li>Double Cleanse & Exfoliation</li>
-              <li>Traditional Mask</li>
-              <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
+              <li>Arms</li>
+              <li>Legs</li>
+              <li>Chest</li>
+              <li>Tummy</li>
+              <li>Back</li>
+
             </ul>
             <h5>Skincare Brands</h5>
             <ul>
-              <li>Snowberry</li>
-              <li>Living Nature</li>
-              <li>Pure Peony</li>
+              <li>Lycon</li>
             </ul>
             <h5>If you suffer from</h5>
             <ul>
-              <li>Stress</li>
+              <li>Large areas of hair growth</li>
               <li>Minimal skin issues</li>
-              <li>Fine Lines</li>
             </ul>
 
           </div>

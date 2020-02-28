@@ -13,7 +13,10 @@ const IndexPage = () => (
 
     <header className="page-homepage section-header image-homepage">
       <div className="content">
-        <h1>Rediscover<br/> your confidence
+        <h1>
+          <span className="text-sm">100% New Zealand </span>
+          Skin & Massage Clinic 
+          <span className="text-sm">in Delft</span>
         </h1>
         <a
           className="btn btn-primary"

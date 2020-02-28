@@ -29,12 +29,17 @@ const IndexPage = () => (
       <div className="content">
         <h2>Massages</h2>
         <p>
-          Because every body is different, so are our massages. We don’t work with set routines, we mix and match different techniques and styles to give you the most effective massages around!
+          Because every body is different, so are our massages. We customise each massage you recieve, based on your needs that day!
         </p>
-        If you have a specific goal, we recommend you book 75 minutes for your first intake and massage.
+        <p>
+          We don’t work with set routines. Instead, we mix and match different techniques and styles to give you the most effective massages around.
+        </p>
         <p>
           Depending on your goal, we offer  Relaxation Massage for the mind & mild body aches, or Theraputic Massage for pain and muscle health.
-          </p>
+        </p>
+        <p>
+          If you have a specific goal, we recommend you book 75 minutes for your first intake and massage.
+        </p>
       </div>
     </section>
 
@@ -45,10 +50,13 @@ const IndexPage = () => (
           <div className="description">
             <h3>Theraputic massage</h3>
             <p>
-            The pressure is firmer, with a focus on releasing built up pain and tension while improving flexibility.
+            These are massages are firm-hard with a focus on releasing built up pain and tension while improving flexibility.
             </p>
             <p>
-            More focus on Deep Tissue, Sports Massage, Trigger Points and Myofascial Release.
+            The muscular-skeletal system is inter connected, so often when you have an injury or ongoing pain, other areas of the body are affected as well.
+            </p>
+            <p>
+            Theraputic massages at Holistic Kiwi are designed to ensure all areas of pain and stress relating to your issues are addressed.
             </p>
             <a
               className="btn btn-primary"
@@ -95,10 +103,10 @@ const IndexPage = () => (
           <div className="description">
             <h3>Relaxation massage</h3>
             <p>
-              Focus is on soothing mental stress and relieving mild body tension.
+              As the name suggests, the focus of this massage is on soothing mental stress and relieving mild body tension.
             </p>
             <p>
-              Pressure is gentle to firm, with a focus on sweeping Swedish styles of Massage.
+              Similar to a traditional Swedish Massage (relaxation), pressure is gentle-firm with a focus on relaxing, sweeping massage techniques.
             </p>
             <a
               className="btn btn-primary"
