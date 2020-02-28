@@ -299,44 +299,6 @@ const IndexPage = () => (
 
       <div className="treatment">
         <div className="content">
-          <div className="description">
-            <h3>Traditional Facials</h3>
-            <p>
-              These are the classic pamper and relaxation treatments!
-            </p>
-            <a
-              className="btn btn-primary"
-              href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
-              type="button"
-            >
-              Book Your Treatment Now
-            </a>
-          </div>
-          <div className="tags">
-            <h5>Includes</h5>
-            <ul>
-              <li>Double Cleanse & Exfoliation</li>
-              <li>Traditional Mask</li>
-              <li>Suitable Serum and mosturiser</li>
-              <li>Neck/Shoulder Massage</li>
-              <li>Intensive Hydration Treat (75m+)</li>
-              <li>BrowTidy  (75m+)</li>
-              <li>Massage Mask  (90m+)</li>
-            </ul>
-            <h5>Skincare Brands</h5>
-            <ul>
-              <li>Snowberry</li>
-              <li>Living Nature</li>
-              <li>Pure Peony</li>
-            </ul>
-            <h5>If you suffer from</h5>
-            <ul>
-              <li>Stress</li>
-              <li>Minimal skin issues</li>
-              <li>Fine Lines</li>
-            </ul>
-
-          </div>
         </div>
       </div>
 
