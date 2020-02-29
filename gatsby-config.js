@@ -2,10 +2,17 @@ module.exports = {
   pathPrefix: '/holistickiwi-website',
   siteMetadata: {
     title: `Holistic Kiwi - Skin & Massage`,
-    description: `A Holistic Fruits Inc. company`,
+    description: `Holistic Kiwi -100% nz Skin & Massage in delft`,
     author: `Kitty Bradley`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-87010048-3",
+      },
+    },
     `gatsby-transformer-yaml`,
     // {
     //   resolve: `gatsby-source-filesystem`,

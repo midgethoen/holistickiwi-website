@@ -2,10 +2,11 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+
 const Navigation = ({ siteTitle, path }) => (
   <nav className="topnav">
     <div className="topnav-left">
-      <Link to="/">{siteTitle}</Link>
+      <Link className="sitetitle" to="/">{siteTitle}</Link>
     </div>
     <div className="topnav-right">
 
