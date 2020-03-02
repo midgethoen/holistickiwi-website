@@ -20,7 +20,7 @@ const IndexPage = () => (
           href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
           type="button"
         >
-          Book Your Treatment Now
+          Book Now
         </a>
       </div>
     </header>
@@ -29,11 +29,20 @@ const IndexPage = () => (
       <div className="content">
         <h2>About us</h2>
         <p>
-        Text hier
-        </p>
-        <p>
-        Text hier
-        </p>
+      Welcome to the home for Sensitive Skin treatments, and Massage Therapy in Delft. At Holistic Kiwi we live up to our name everyday!
+      </p>
+      <p>
+      Holistic = Systems and their properties are viewed as wholes, not just as a collection of parts.
+      </p>
+      <p>
+      Kiwi = Kiwiana - anything or anyone originating from New Zealand. Also the name of our national bird!
+      </p>
+      <p>
+      At Holistic Kiwi, we pride ourselves on authentisity and effectiveness! Our NZ made products are hand picked by Kitti, after meeting her strict criteria. This means we don't just stock one brand, and we are constantly expanding what we offer!
+      </p>
+      <p>
+      Let us to take care of you, so you can take care of your life!
+      </p>
       </div>
     </section>
 
@@ -47,7 +56,7 @@ const IndexPage = () => (
           Due to her personal struggle with Dermatitis and Sensitive skin, she understands the importance of quality products and honest therapists.
         </p>
         <p>
-        With international qualifications in Beauty Therapy, Spa Therapy and Body & Nutrition (CIBTAC, CIDESCO, NZQA), Kitti is truly passionate about helping clients combat their issues.
+        With international qualifications in Beauty Therapy, Spa Therapy and Body & Nutrition (CIBTAC, CIDESCO, NZQA), Kitti is truly passionate about helping clients combat their ongoing issues.
         </p>
 
         <div className="stat-row">
