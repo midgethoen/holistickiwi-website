@@ -13,6 +13,16 @@ module.exports = {
         trackingId: "UA-87010048-3",
       },
     },
+    {
+      resolve: `gatsby-source-googlemaps-static`,
+      options: {
+          key: `AIzaSyBjGkSLuIFkGEG6xhluKs_8FXPH9lDto00`,
+          //center: `LATITUDE,LONGITUDE || CITY,REGION`,
+          center: `Chicago, IL`,
+          query: `Willis Tower`,
+      },
+    },
+
     `gatsby-transformer-yaml`,
     // {
     //   resolve: `gatsby-source-filesystem`,

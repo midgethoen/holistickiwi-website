@@ -61,25 +61,17 @@ const IndexPage = () => (
 
         <div className="stat-row">
           <div className="stat">
-            <h3>ANBOS |CIBTAC | CIDESCO | NZQA | ITEC</h3>
+            <h3>ANBOS | CIDESCO | NZQA | CIBTAC</h3>
             <p>International Qualifications</p>
           </div>
         </div>
         <div className="stat-row">
           <div className="stat">
-            <h3>5/5</h3>
-            <p>Verified Fresha Rating</p>
+            <h3>2013</h3>
+            <p>moved to europe</p>
           </div>
           <div className="stat">
-            <h3>4.8/5</h3>
-            <p>Treatwell Rating</p>
-          </div>
-          <div className="stat">
-            <h3>4.5/5</h3>
-            <p>Google Rating</p>
-          </div>
-          <div className="stat">
-            <h3>884</h3>
+            <h3>612</h3>
             <p>Treatments performed last year</p>
           </div>
         </div>
@@ -90,35 +82,35 @@ const IndexPage = () => (
       <div className="content">
         <h3>Mary</h3>
         <p>
-        Holistic Kiwi was started in 2016 with the goal of creating a safe space to help those with ongoing skin issues such as Rosacea, Acne, Dermatitis/Eczema & Psoriasis.
+          Beauty Therapist Mary Darbyshire (CIDESCO, ITEC, NZQA) joined Kitti giving treatments in early 2019.
         </p>
         <p>
-        We provide high quality Massage Therapy for ongoing aches and pains. This includes reducing symptoms of Frozen Shoulders and Fibromyalgia as well as office and sports injuries!
+          Another Kiwi lass, she is passionate about skin health, and how the body’s systems on the inside can reflect on our skin.
         </p>
+        <p>
+          Mary has suffered with Psoriasis, as well as Acne. Her first hand experience with these issues, coupled with her can do attitude, make her the perfect addition to the Holistic Kiwi Team!
+        </p>
+        <p>
+          She is currently busy with a Holistic Therapy study to add to her skill set which she hopes to complete by the start of 2020.
+        </p>
+
 
         <div className="stat-row">
           <div className="stat">
-            <h3>ANBOS |CIBTAC | CIDESCO | NZQA | ITEC</h3>
+            <h3>ANBOS | CIDESCO | NZQA | ITEC</h3>
             <p>International Qualifications</p>
           </div>
         </div>
         <div className="stat-row">
           <div className="stat">
-            <h3>5/5</h3>
-            <p>Verified Fresha Rating</p>
+            <h3>1</h3>
+            <p>Pet Dog</p>
           </div>
           <div className="stat">
-            <h3>4.8/5</h3>
-            <p>Treatwell Rating</p>
+            <h3>6</h3>
+            <p>Eorpean countries left to visist</p>
           </div>
-          <div className="stat">
-            <h3>4.5/5</h3>
-            <p>Google Rating</p>
-          </div>
-          <div className="stat">
-            <h3>884</h3>
-            <p>Treatments performed last year</p>
-          </div>
+
         </div>
       </div>
     </section>
