@@ -27,16 +27,19 @@ const IndexPage = () => (
         <div className="content">
           <h2>About us</h2>
           <p>
-            Welcome to Holistic Kiwi, the home of Facials for Sensitive Skin and Massage Therapy in Delft. We live up to our name everyday!
+          At Holistic Kiwi we believe that everyone should be able to have access to quality skin care and massages. <br/>
+          We offer massages and skin treatments that meet the highest international standards.
           </p>
+          <h3>The Products</h3>
           <p>
-            Holistic = Systems and their properties are viewed as wholes, not just as a collection of parts.
+          New Zealand is leading in skincare, due to having to cope with the highest UV rating in the world.<br/>
+          They also have the world's best medical grade natural ingredients such as Manuka.<br/>
+          Our products are carefully curated by Kitti, meaning we only stock the best products that New Zealand has to offer.
           </p>
+          <h3>More than just a name</h3>
           <p>
-            Kiwi = Kiwiana - anything or anyone originating from New Zealand (Like us and our skincare!). Kiwi is also the name of our national bird.
-          </p>
-          <p>
-            At Holistic Kiwi, we pride ourselves on authenticity and effectiveness. Our NZ made products are hand picked by Kitti, after meeting her strict criteria. This means we don't stock just one brand, and we are constantly expanding what we offer!
+          Our name reflects our core values.<br/>
+          <b>Holistic</b> meaning; systems and their properties are viewed as wholes, not just as a collection of parts, and <b>Kiwi</b> or Kiwiana as in the New Zealand word for everyone and everything from our fun little island.
           </p>
         </div>
       </section>
