@@ -20,7 +20,7 @@ const IndexPage = () => (
           href="https://www.fresha.com/providers/holistic-kiwi-agx16c7f"
           type="button"
         >
-          Book Your Treatment Now
+          Book Now
         </a>
       </div>
     </header>
@@ -34,7 +34,7 @@ const IndexPage = () => (
         <h4>Address</h4>
         <p>
           Kruisstraat 39-41<br/>
-          2611 ML Delft<br/>
+          2611 ML, Delft<br/>
           The Netherlands
         </p>
         <a className="btn btn-secondary" href="https://goo.gl/maps/fNDF7CKc3fgVGCS57"> Open in Google Maps</a>
@@ -58,7 +58,7 @@ const IndexPage = () => (
 
           <h4>Walk-in Consultation</h4>
             <table>
-                <tr> <td>Saturday</td><td>11:00</td><td>-</td><td>17:00</td> </tr>
+                <tr> <td>Saturday</td><td>11:00</td><td>-</td><td>16:00</td> </tr>
             </table>
       </div>
     </section>
