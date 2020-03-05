@@ -27,7 +27,7 @@ const IndexPage = () => (
 
 
     <section className="page-massage section-contact colorscheme-purple">
-      <div className="map">
+      <div className="map displaynone">
         map
       </div>
       <div className="content">
