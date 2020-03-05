@@ -150,6 +150,18 @@ html{
   }
 }
 
+// ----------------------
+// Page styling
+// ----------------------
+
+.page-404{
+  &.section-header{
+    height: 100vh;
+    h1{
+      max-width: 920px;
+    }
+  }
+}
 
 
 // .section-info-dual{

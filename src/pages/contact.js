@@ -7,7 +7,7 @@ import Icon from "../components/Icon"
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <SEO title="Contact"/>
 
 
 

@@ -7,7 +7,7 @@ import Icon from "../components/Icon"
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <SEO title="About us"/>
 
       <header className="page-massage section-header image-about">
         <div className="content">

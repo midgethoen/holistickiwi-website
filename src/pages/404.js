@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -6,8 +7,19 @@ import SEO from "../components/seo"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+
+    <header className="page-404 section-header image-fishing">
+      <div className="content">
+        <h1>
+          <span className="text-sm">404 - Page Not Found </span>
+          The page you are looking for is probably out fishing
+        </h1>
+        <Link className="btn btn-secondary"to="/"> Go to homepage </Link>
+      </div>
+    </header>
+
+
+
   </Layout>
 )
 
