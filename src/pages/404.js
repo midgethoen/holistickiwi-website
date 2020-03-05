@@ -14,7 +14,7 @@ const NotFoundPage = () => (
           <span className="text-sm">404 - Page Not Found </span>
           The page you are looking for is probably out fishing
         </h1>
-        <Link className="btn btn-secondary"to="/"> Go to homepage </Link>
+        <Link className="btn btn-secondary"to="/"> Go To The Homepage </Link>
       </div>
     </header>
 
