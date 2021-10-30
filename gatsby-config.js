@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/holistickiwi-website',
+  pathPrefix: "/holistickiwi-website",
   siteMetadata: {
     title: `Holistic Kiwi - Skin & Massage`,
     description: `Holistic Kiwi -100% nz Skin & Massage in delft`,
@@ -13,15 +13,15 @@ module.exports = {
         trackingId: "UA-87010048-3",
       },
     },
-    {
-      resolve: `gatsby-source-googlemaps-static`,
-      options: {
-          key: `AIzaSyBjGkSLuIFkGEG6xhluKs_8FXPH9lDto00`,
-          //center: `LATITUDE,LONGITUDE || CITY,REGION`,
-          center: `Chicago, IL`,
-          query: `Willis Tower`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-googlemaps-static`,
+    //   options: {
+    //       key: `AIzaSyBjGkSLuIFkGEG6xhluKs_8FXPH9lDto00`,
+    //       //center: `LATITUDE,LONGITUDE || CITY,REGION`,
+    //       center: `Chicago, IL`,
+    //       query: `Willis Tower`,
+    //   },
+    // },
 
     `gatsby-transformer-yaml`,
     // {
@@ -36,10 +36,10 @@ module.exports = {
       options: {
         extensions: [`.mdx`, `.md`],
         defaultLayouts: {
-        //   pages: require.resolve("./src/templates/default.js"),
+          //   pages: require.resolve("./src/templates/default.js"),
           default: require.resolve("./src/templates/default.js"),
         },
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
